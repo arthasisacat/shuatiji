@@ -3,6 +3,7 @@ title: sort_and_search
 has_children: true
 nav_order: 1
 has_toc: false
+bookCollapseSection: true
 ---
 #  Sorting and Searc h
 {: .no_toc }

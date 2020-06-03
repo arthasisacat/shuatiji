@@ -3,6 +3,7 @@ title: brain_teaser
 has_children: true
 nav_order: 99
 has_toc: false
+bookCollapseSection: true
 ---
 #  brain_teaser
 {: .no_toc }

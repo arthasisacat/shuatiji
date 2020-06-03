@@ -3,6 +3,7 @@ title: lower_level
 has_children: true
 nav_order: 99
 has_toc: false
+bookCollapseSection: true
 ---
 #  Lower level
 {: .no_toc }

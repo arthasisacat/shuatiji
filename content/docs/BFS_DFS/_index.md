@@ -3,15 +3,9 @@ title: BFS_DFS
 has_children: true
 nav_order: 3
 has_toc: false
+bookCollapseSection: true
 ---
 #  BFS, DFS
-{: .no_toc }
-
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
 
 ## classic
 - [200. Number of Islands](docs/200)
@@ -50,3 +44,4 @@ has_toc: false
 ## medium
 - [286. Walls and Gates](/docs/286)
 
+{{<section>}}

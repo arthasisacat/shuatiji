@@ -3,6 +3,7 @@ title: misc
 has_children: true
 nav_order: 7
 has_toc: false
+bookCollapseSection: true
 ---
 
 # Anything that I don't know how to categorize will be here
