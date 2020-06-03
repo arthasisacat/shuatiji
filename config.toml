@@ -32,7 +32,7 @@ enableGitInfo = true
   # Enable 'Edit this page' links for 'doc' page type.
   # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
   # Path must point to the site directory.
-  # BookEditPath = 'edit/master/exampleSite'
+  # BookEditPath = 'edit/master/'
   
   # (Optional, default January 2, 2006) Configure the date format used on the pages
   # - In git information
@@ -48,7 +48,7 @@ enableGitInfo = true
   # By default partals/docs/comments.html includes Disqus template
   # See https://gohugo.io/content-management/comments/#configure-disqus
   # Can be overwritten by same param in page frontmatter
-  BookComments = true
+  BookComments = false
 
   # /!\ This is an experimental feature, might be removed or changed at any time
   # (Optional, experimental, default false) Enables portable links and link checks in markdown pages.
