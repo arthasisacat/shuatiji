@@ -1,9 +1,5 @@
 ---
-title: tree
-has_children: true
-weight: 2
-has_toc: false
-permalink: /docs/tree
+weight: 3
 bookCollapseSection: true
 ---
 # Tree

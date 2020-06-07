@@ -2,7 +2,7 @@
 title: calculators
 parent: data_structure
 has_children: true
-nav_order: 99
+weight: 99
 permalink: /docs/calculators
 ---
 # Calculators

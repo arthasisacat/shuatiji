@@ -1,7 +1,7 @@
 ---
 title: brain_teaser
 has_children: true
-nav_order: 99
+weight: 99
 has_toc: false
 bookCollapseSection: true
 ---

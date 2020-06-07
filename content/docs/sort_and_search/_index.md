@@ -1,11 +1,8 @@
 ---
-title: sort_and_search
-has_children: true
-weight: 5
-has_toc: false
+weight: 4
 bookCollapseSection: true
 ---
-#  Sorting and Searc h
+#  Sorting and Search
 {: .no_toc }
 
 ## Table of contents
