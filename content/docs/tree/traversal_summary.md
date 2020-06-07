@@ -2,7 +2,7 @@
 title: traversal_summary
 parent: tree
 has_children: true
-nav_order: 0
+weight: 6
 permalink: /docs/traversal
 ---
 # traversal_summary

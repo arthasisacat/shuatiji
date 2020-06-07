@@ -3,7 +3,7 @@ title: Minimum Swaps to Sort
 permalink: /docs/minimum_swaps_to_sort
 parent: BFS_DFS
 has_children: false
-nav_order: 5
+weight: 1
 ---
 # Minimum Swaps to Sort
 Google phone interview problem: [lin](https://leetcode.com/discuss/interview-question/346621/Google-or-Phone-Screen-or-Min-swaps-to-sort-array)

@@ -1,7 +1,7 @@
 ---
 title: misc
 has_children: true
-nav_order: 7
+weight: 1
 has_toc: false
 bookCollapseSection: true
 ---

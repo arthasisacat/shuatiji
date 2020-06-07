@@ -3,7 +3,7 @@ title: union_find
 permalink: /docs/union_find
 parent: notes
 has_children: false
-nav_order: 2
+weight: 4
 ---
 # Union Find
 

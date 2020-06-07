@@ -2,7 +2,7 @@
 title: ring_buffer
 parent: data_structure
 has_children: false
-nav_order: 1
+weight: 5
 permalink: /docs/ring_buffer
 ---
 # Ring Buffer

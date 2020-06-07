@@ -1,7 +1,7 @@
 ---
 title: notes
 has_children: true
-nav_order: 1
+weight: 5
 has_toc: false
 permalink: docs/notes
 ---

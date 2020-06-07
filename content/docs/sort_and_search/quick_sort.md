@@ -2,7 +2,7 @@
 title: quick sort
 parent: sort_and_search
 has_children: false
-nav_order: 0
+weight: 6
 permalink: /docs/quick_sort
 ---
 # Quick Sort & Merge Sort Template

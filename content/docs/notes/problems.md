@@ -1,7 +1,7 @@
 ---
 title: problems
 has_children: false
-nav_order: 4
+weight: 2
 parent: notes
 permalink: /docs/note_4
 ---

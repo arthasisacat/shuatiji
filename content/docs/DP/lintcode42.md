@@ -2,7 +2,7 @@
 title: 42. Maximum Subarray II
 parent: DP
 has_children: false
-nav_order: 1
+weight: 5
 permalink: /docs/lintcode42
 ---
 # 42. Maximum Subarray II

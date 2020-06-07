@@ -2,7 +2,7 @@
 title: 545. Top k Largest Numbers II
 parent: data_structure
 has_children: false
-nav_order: 100
+weight: 500
 permalink: /docs/lintcode545
 ---
 # 545. Top k Largest Numbers II

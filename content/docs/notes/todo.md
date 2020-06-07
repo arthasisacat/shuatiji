@@ -1,7 +1,7 @@
 ---
 title: todo
 has_children: false
-nav_order: 1
+weight: 5
 parent: notes
 permalink: /docs/todo
 ---

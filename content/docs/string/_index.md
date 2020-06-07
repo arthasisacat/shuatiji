@@ -1,7 +1,7 @@
 ---
 title: string
 has_children: true
-nav_order: 3
+weight: 3
 has_toc: false
 bookCollapseSection: true
 ---

@@ -1,7 +1,7 @@
 ---
 title: tree
 has_children: true
-nav_order: 4
+weight: 2
 has_toc: false
 permalink: /docs/tree
 bookCollapseSection: true

@@ -2,7 +2,7 @@
 title: 45. Maximum Subarray Difference
 parent: DP
 has_children: false
-nav_order: 1
+weight: 5
 permalink: /docs/lintcode45 
 ---
 # 45. Maximum Subarray Difference

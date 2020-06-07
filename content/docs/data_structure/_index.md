@@ -1,7 +1,7 @@
 ---
 title: data_structure
 has_children: true
-nav_order: 6
+weight: 1
 has_toc: false
 bookCollapseSection: true
 ---

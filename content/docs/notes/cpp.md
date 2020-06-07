@@ -3,7 +3,7 @@ title: cpp
 permalink: /docs/note_1
 parent: notes
 has_children: false
-nav_order: 0
+weight: 6
 ---
 # C++ handing built in functions and usage
 

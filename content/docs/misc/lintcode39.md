@@ -2,7 +2,7 @@
 title: 39.Recover Rotated Sorted Array
 parent: misc
 has_children: false
-nav_order: 1
+weight: 5
 permalink: docs/lintcode39
 ---
 # 39.Recover Rotated Sorted Array

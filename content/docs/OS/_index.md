@@ -1,4 +1,6 @@
 ---
+weight: 2
 bookCollapseSection: true
+bookToC: true
 ---
-# Operating System
+# NOTES

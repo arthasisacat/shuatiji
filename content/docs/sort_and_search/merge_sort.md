@@ -2,7 +2,7 @@
 title: merge_sort
 parent: sort_and_search
 has_children: false
-nav_order: 0
+weight: 6
 permalink: /docs/merge_sort
 ---
 # Merge Sort Template
