@@ -1,7 +1,7 @@
 # Memory management
 
 ## Computer memory hiararchy
-![pic](/content/pics/memory_management.png)
+![image info](../memory_management.png)
 
 1. external memory or secondary memory
     Comprising of Magnetic Disk, Optical Disk, Magnetic Tape i.e. peripheral storage devices which are accessible by the processor via I/O Module.

@@ -1,23 +1,13 @@
 ---
-title: brain_teaser
-has_children: true
 weight: 99
-has_toc: false
 bookCollapseSection: true
 ---
 #  brain_teaser
-{: .no_toc }
-
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
 
 ## 概率
 [398. Random Pick Index](398)
 
-### greatest common divisor 最大公约数
+## greatest common divisor 最大公约数
 Also, c++ has `__gcd(int a, int b)` that can be used!
 
 [link](914)
