@@ -3,7 +3,7 @@ title: 545. Top k Largest Numbers II
 parent: data_structure
 has_children: false
 weight: 500
-permalink: /docs/lintcode545
+permalink: lintcode545
 ---
 # 545. Top k Largest Numbers II
 [lintcode link](https://www.lintcode.com/problem/top-k-largest-numbers-ii/description)

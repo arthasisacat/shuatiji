@@ -3,7 +3,7 @@ title: quick sort
 parent: sort_and_search
 has_children: false
 weight: 6
-permalink: /docs/quick_sort
+permalink: quick_sort
 ---
 # Quick Sort & Merge Sort Template
 ```c++

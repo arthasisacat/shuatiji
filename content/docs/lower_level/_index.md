@@ -13,11 +13,11 @@ bookCollapseSection: true
 {:toc}
 
 ## C-like
-[157](/docs/157)
+[157](157)
 
 ## x 进制
-[171](/docs/171)
-[504. Base 7](/docs/504)
+[171](171)
+[504. Base 7](504)
 
 ## bit operation
 ### signed int shift 
@@ -27,8 +27,8 @@ signed int's shift is not defined in c++! unsigned is defined - to fill with 0s!
 see [https://cp-algorithms.com/algebra/gray-code.html](https://cp-algorithms.com/algebra/gray-code.html)
 
 example: 
-- [89](/docs/89)
-- [1238](/docs/1238)
+- [89](89)
+- [1238](1238)
 
 ### Swap 2 numbers in place
 ```c++

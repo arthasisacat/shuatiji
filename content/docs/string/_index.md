@@ -17,8 +17,8 @@ bookCollapseSection: true
 Anything related to string yet cannot fit into other categories comes here...
 
 ## good
-- [647. Palindromic Substrings](/docs/647)
+- [647. Palindromic Substrings](647)
 
 ## hard
-- [459](/docs/459)
-- [686](/docs/686)
+- [459](459)
+- [686](686)

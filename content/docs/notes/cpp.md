@@ -1,6 +1,6 @@
 ---
 title: cpp
-permalink: /docs/note_1
+permalink: note_1
 parent: notes
 has_children: false
 weight: 6
@@ -8,10 +8,10 @@ weight: 6
 # C++ handing built in functions and usage
 
 ## set, unordered_set with pair
-[929](/docs/929) 
+[929](929) 
 
 ## unordered_map in C++ 11
-example from [594](/docs/594)
+example from [594](594)
 ```c++
         unordered_map<int,int> m;
         for (auto [k,v] : m){
@@ -52,7 +52,7 @@ return val and be cast to (char)
 
 
 ## operator override
-[638. Shopping Offers](/docs/638)
+[638. Shopping Offers](638)
 
 ## vector insert
 
@@ -63,4 +63,4 @@ The vector is extended by inserting new elements **before** the element at the p
 See [link](https://www.geeksforgeeks.org/vector-insert-function-in-c-stl/) for example
 
 ## upper_bound
-- [981. Time Based Key-Value Store](/docs/981) customized compare function for upper bound
+- [981. Time Based Key-Value Store](981) customized compare function for upper bound

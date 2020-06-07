@@ -3,7 +3,7 @@ title: ring_buffer
 parent: data_structure
 has_children: false
 weight: 5
-permalink: /docs/ring_buffer
+permalink: ring_buffer
 ---
 # Ring Buffer
 

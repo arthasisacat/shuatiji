@@ -3,7 +3,7 @@ title: 44. Minimum Subarray
 parent: DP
 has_children: false
 weight: 5
-permalink: /docs/lintcode44
+permalink: lintcode44
 ---
 # 44. Minimum Subarray
 [lintcode link](https://www.lintcode.com/problem/minimum-subarray/description)

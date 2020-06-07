@@ -3,7 +3,7 @@ title: 42. Maximum Subarray II
 parent: DP
 has_children: false
 weight: 5
-permalink: /docs/lintcode42
+permalink: lintcode42
 ---
 # 42. Maximum Subarray II
 [lintcode link](https://www.lintcode.com/problem/maximum-subarray-ii/description?_from=ladder&&fromId=1)

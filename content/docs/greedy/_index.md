@@ -16,9 +16,9 @@ bookCollapseSection: true
 {:toc}
 
 ## Good
-- [435. Non-overlapping Intervals](/docs/435) classic greedy!
-- [763. Partition Labels](/docs/763)
-- [826. Most Profit Assigning Work](/docs/826)
+- [435. Non-overlapping Intervals](435) classic greedy!
+- [763. Partition Labels](763)
+- [826. Most Profit Assigning Work](826)
 
 ## might be greedy?
-[11](/docs/11)
+[11](11)

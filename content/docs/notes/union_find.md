@@ -1,6 +1,6 @@
 ---
 title: union_find
-permalink: /docs/union_find
+permalink: union_find
 parent: notes
 has_children: false
 weight: 4
@@ -8,9 +8,9 @@ weight: 4
 # Union Find
 
 template:
-[547](/docs/547) 
+[547](547) 
 
-- [721. Accounts Merge](/docs/721)
+- [721. Accounts Merge](721)
 - [1202. Smallest String With Swaps](docs/1202)
-- [684. Redundant Connection](/docs/684)
-- [990. Satisfiability of Equality Equations](/docs/990)
+- [684. Redundant Connection](684)
+- [990. Satisfiability of Equality Equations](990)

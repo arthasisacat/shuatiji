@@ -16,7 +16,7 @@ bookCollapseSection: true
 {:toc}
 
 ## interesting question
-- [442](/docs/442) and [448](/docs/448) are same.
+- [442](442) and [448](448) are same.
 - 
 
 

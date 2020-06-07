@@ -22,6 +22,6 @@ std::set is commonly implemented as a red-black binary search tree. Insertion on
 
 ## list
 example problem: 
-[146. LRU Cache](/docs/146)
+[146. LRU Cache](146)
 std::list is a container that supports constant time insertion and removal of elements from anywhere in the container (as long as you know the iterator). Fast random access is not supported. It is usually implemented as a doubly-linked list. Compared to std::forward_list this container provides bidirectional iteration capability while being less space efficient.
 Adding, removing and moving the elements within the list or across several lists does not invalidate the iterators or references. An iterator is invalidated only when the corresponding element is deleted.

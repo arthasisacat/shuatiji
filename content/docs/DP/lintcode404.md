@@ -3,7 +3,7 @@ title: 404. Subarray Sum II
 parent: DP
 has_children: false
 weight: 5
-permalink: /docs/lintcode404
+permalink: lintcode404
 ---
 # 404. Subarray Sum II
 [lintcode link](https://www.lintcode.com/problem/subarray-sum-ii/description)

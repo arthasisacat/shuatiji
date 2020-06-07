@@ -15,10 +15,10 @@ bookCollapseSection: true
 {:toc}
 
 ## 概率
-[398. Random Pick Index](/docs/398)
+[398. Random Pick Index](398)
 
 ### greatest common divisor 最大公约数
 Also, c++ has `__gcd(int a, int b)` that can be used!
 
-[link](/docs/914)
+[link](914)
 

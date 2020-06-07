@@ -3,7 +3,7 @@ title: traversal_summary
 parent: tree
 has_children: true
 weight: 6
-permalink: /docs/traversal
+permalink: traversal
 ---
 # traversal_summary
 

@@ -3,7 +3,7 @@ title: 45. Maximum Subarray Difference
 parent: DP
 has_children: false
 weight: 5
-permalink: /docs/lintcode45 
+permalink: lintcode45 
 ---
 # 45. Maximum Subarray Difference
 [lintcode link](https://www.lintcode.com/problem/maximum-subarray-difference/description?_from=ladder&&fromId=1)

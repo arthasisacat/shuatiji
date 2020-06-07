@@ -3,7 +3,7 @@ title: merge_sort
 parent: sort_and_search
 has_children: false
 weight: 6
-permalink: /docs/merge_sort
+permalink: merge_sort
 ---
 # Merge Sort Template
 ```c++

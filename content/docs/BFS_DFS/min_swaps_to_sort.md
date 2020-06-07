@@ -1,6 +1,6 @@
 ---
 title: Minimum Swaps to Sort
-permalink: /docs/minimum_swaps_to_sort
+permalink: minimum_swaps_to_sort
 parent: BFS_DFS
 has_children: false
 weight: 1

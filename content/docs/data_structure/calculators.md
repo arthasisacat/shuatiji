@@ -3,7 +3,7 @@ title: calculators
 parent: data_structure
 has_children: true
 weight: 99
-permalink: /docs/calculators
+permalink: calculators
 ---
 # Calculators
 {: .no_toc }    
@@ -15,7 +15,7 @@ permalink: /docs/calculators
 {:toc} -->
 
 <!-- ## Series of calucator problems -->
-<!-- [224. Basic Calculator](/docs/224) -->
+<!-- [224. Basic Calculator](224) -->
 
 
 
