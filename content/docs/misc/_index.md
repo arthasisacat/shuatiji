@@ -1,8 +1,6 @@
 ---
-title: misc
-has_children: true
 weight: 98
-has_toc: false
+BookToC: true
 bookCollapseSection: true
 ---
 

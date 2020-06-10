@@ -1,18 +1,9 @@
 ---
-title: DP
-has_children: true
 weight: 3
-has_toc: false
+BookToC: true
 bookCollapseSection: true
 ---
 # Dynamic Programming
-{: .no_toc }
-
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
 
 ## lalala
 [238](238) interesting!

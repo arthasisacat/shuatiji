@@ -1,16 +1,9 @@
 ---
 weight: 3
-has_toc: false
+BookToC: true
 bookCollapseSection: true
 ---
 #  Lower level
-{: .no_toc }
-
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
 
 ## C-like
 [157](157)

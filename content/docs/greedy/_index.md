@@ -1,8 +1,7 @@
 ---
 title: greedy
-has_children: true
 weight: 6
-has_toc: false
+BookToC: true
 bookCollapseSection: true
 ---
 

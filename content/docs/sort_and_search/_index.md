@@ -1,6 +1,7 @@
 ---
 weight: 4
 bookCollapseSection: true
+BookToC: true
 ---
 #  Sorting and Search
 {: .no_toc }

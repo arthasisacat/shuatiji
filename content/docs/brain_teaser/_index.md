@@ -1,6 +1,7 @@
 ---
 weight: 99
 bookCollapseSection: true
+BookToC: true
 ---
 #  brain_teaser
 

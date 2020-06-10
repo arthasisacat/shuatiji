@@ -1,6 +1,7 @@
 ---
 bookCollapseSection: true
 weight: 3
+BookToC: true
 ---
 # Pointers
 

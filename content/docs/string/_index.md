@@ -2,7 +2,7 @@
 title: string
 has_children: true
 weight: 5
-has_toc: false
+BookToC: true
 bookCollapseSection: true
 ---
 # String

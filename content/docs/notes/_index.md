@@ -1,6 +1,6 @@
 ---
 weight: 1
 bookCollapseSection: true
-bookToC: true
+BookToC: true
 ---
 # NOTES

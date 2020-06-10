@@ -1,6 +1,7 @@
 ---
 weight: 3
 bookCollapseSection: true
+BookToC: true
 ---
 # Tree
 {: .no_toc }

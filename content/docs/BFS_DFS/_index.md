@@ -1,11 +1,10 @@
 ---
-title: BFS_DFS
-has_children: true
 weight: 3
-has_toc: false
+BookToC: true
 bookCollapseSection: true
 ---
 #  BFS, DFS
+<!-- ![pic](/img/test.jpg) -->
 
 ## classic
 - [200. Number of Islands](200)

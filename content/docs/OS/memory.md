@@ -1,3 +1,7 @@
+---
+BookToC: true
+---
+
 # Memory management
 
 ## Memory hiarrarchy

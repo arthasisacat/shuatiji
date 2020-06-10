@@ -1,9 +1,7 @@
 ---
-title: data_structure
-has_children: true
 weight: 3
-has_toc: false
 bookCollapseSection: true
+BookToC: true
 ---
 
 #  Data Structure
