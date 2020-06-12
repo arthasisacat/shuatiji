@@ -11,6 +11,7 @@ permalink: note_4
 - [20. Valid Parentheses](20)
 - [921. Minimum Add to Make Parentheses Valid](921)
 - [1111. Maximum Nesting Depth of Two Valid Parentheses Strings](1111)
+- [22. Generate Parentheses](22) dfs
 
 ## Buying and Selling stocks
 

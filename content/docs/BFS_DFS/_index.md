@@ -6,39 +6,97 @@ bookCollapseSection: true
 #  BFS, DFS
 <!-- ![pic](/img/test.jpg) -->
 
+## TODO/不会
+- [332. Reconstruct Itinerary](332)
+- [802. Find Eventual Safe States](802)
+- [959. Regions Cut By Slashes](959)
+
+
+## parentheses
+- [22. Generate Parentheses](22)
+- [241. Different Ways to Add Parentheses](241)
+
 ## classic
 - [200. Number of Islands](200)
-- [subsets](78)
+- [78. subsets](78)
 - [90. Subsets II](90)
-- [permutation](46)
-- [permutation ii](47)
+- [46. permutation](46)
+- [17. permutation ii](47)
+- [39. Combination Sum ](39)
+- [40. Combination Sum II](40)
+- [131. Palindrome Partitioning](131) very ordinary solution
+- [733. Flood Fill](733) easy
+- 
+## combinational sum
+- [39. Combination Sum ](39)
+- [40. Combination Sum II](40)
+- [216. Combination Sum III](216) easy
+- [337. combinational sum IV](337) wrong question title, actually it's permutation
 
+## devide and conquer
+- [241. Different Ways to Add Parentheses](241) does it count?
+
+## backtracking
+- [357. Count Numbers with Unique Digits](357)
+- 
 ## dijkstra
-[778. Swim in Rising Water](778)
-[743. Network Delay Time](743)
+- [778. Swim in Rising Water](778) 5
+- [743. Network Delay Time](743)
+- [787. Cheapest Flights Within K Stops](787)
 
 ## topological sort
 - [207. Course Schedule](207)
 - [210. Course Schedule II](210)
 
-
 ## left right side enumerate (DFS?)
 - [241. Different Ways to Add Parentheses](241)
 - [95. Unique Binary Search Trees II](95)
 
-
-## hard (4)
+## devide and conquer
+- [96. Unique Binary Search Trees](96)
+- [95. Unique Binary Search Trees II](95)
+- [241. Different Ways to Add Parentheses](241)
+  
+## hard 4~5
+- [756. Pyramid Transition Matrix](756)
+- [494. Target Sum](494)
 - [1129. Shortest Path with Alternating Colors](1129) hard
 - [505. The Maze II](505) 自己没想出来 (another one - [490 the Maze](490))
 - [694. Number of Distinct Islands](694)
 - [947. Most Stones Removed with Same Row or Column](947)
 - [1391. Check if There is a Valid Path in a Grid](1391) it's actually not DFS/BFS...
+- [241. Different Ways to Add Parentheses](241)
+- [364. Nested List Weight Sum II](364)
+- [505. The Maze II](505)
+- [694. Number of Distinct Islands](694)
+- [787. Cheapest Flights Within K Stops](787)
+- [842. Split Array into Fibonacci Sequence](842)
+- [851. Loud and Rich](851) confusing problem description
+- 
+## super hard (5+)
+- [526. Beautiful Arrangement](526)
+- [909. Snakes and Ladders](909) classic, and super hard.
+- [947. Most Stones Removed with Same Row or Column](947)
 
+## color 
+- [886. Possible Bipartition](886)
+- [934. Shortest Bridge](934)
+
+
+## does not look like BFS/DFS but it IS
+- [357. Count Numbers with Unique Digits](357)
+- [386. Lexicographical Numbers](386)
+- [399. Evaluate Division](399) 4
+- [967. Numbers With Same Consecutive Differences](967)
+- 
 ## easy 
-
+- [17. Letter Combinations of a Phone Number](17) easy dfs
 - [695. Max Area of Island](695) easy one
 - [323. Number of Connected Components in an Undirected Graph](323)
 - [547. Friend Circles](547) same as [323](323)
-
+- [841. Keys and Rooms](841)
+- 
 ## medium
 - [286. Walls and Gates](286)
+- [473. Matchsticks to Square](473)
+- 
