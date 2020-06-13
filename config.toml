@@ -9,6 +9,9 @@ enableGitInfo = true
 
 enableEmoji = true
 
+[permalinks]
+  # docs = "/:filename/"
+
 [params]
   # (Optional, default true) Controls table of contents visibility on right side of pages.
   # Start and end levels can be controlled with markup.tableOfContents setting.

@@ -1,12 +1,9 @@
 ---
-title: Minimum Swaps to Sort
-permalink: minimum_swaps_to_sort
-parent: BFS_DFS
-has_children: false
 weight: 1
 ---
 # Minimum Swaps to Sort
 Google phone interview problem: [lin](https://leetcode.com/discuss/interview-question/346621/Google-or-Phone-Screen-or-Min-swaps-to-sort-array)
+
 [geekforgeek link](https://practice.geeksforgeeks.org/problems/minimum-swaps/1)
 
 **difficulty(1-5)** 
@@ -29,13 +26,13 @@ Input : {1, 5, 4, 3, 2}
 Output : 2
 
 ## Solution
+
 solution [link](https://www.geeksforgeeks.org/minimum-number-swaps-required-sort-array/)
 
 其实就是找那种相互占了对方位置的loop（group）size。 每个group size - 1就是这个group归位需要的jump数目。把所有的group size -1 再加起来就好了。
 
 ```c++
 int minSwaps(int A[], int N){
-    /*Your code here */
     vector<pair<int,int>> p;
     for (int i = 0; i < N; i++){
         p.push_back({A[i],i});

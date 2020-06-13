@@ -3,14 +3,13 @@ weight: 3
 BookToC: true
 bookCollapseSection: true
 ---
-#  BFS, DFS
+#  BFS, DFS, and graph
 <!-- ![pic](/img/test.jpg) -->
 
 ## TODO/不会
 - [332. Reconstruct Itinerary](332)
 - [802. Find Eventual Safe States](802)
 - [959. Regions Cut By Slashes](959)
-
 
 ## parentheses
 - [22. Generate Parentheses](22)
@@ -22,6 +21,7 @@ bookCollapseSection: true
 - [90. Subsets II](90)
 - [46. permutation](46)
 - [17. permutation ii](47)
+- [1079. Letter Tile Possibilities](1079) similar to permutation
 - [39. Combination Sum ](39)
 - [40. Combination Sum II](40)
 - [131. Palindrome Partitioning](131) very ordinary solution
@@ -34,11 +34,13 @@ bookCollapseSection: true
 - [337. combinational sum IV](337) wrong question title, actually it's permutation
 
 ## devide and conquer
-- [241. Different Ways to Add Parentheses](241) does it count?
+- [241. Different Ways to Add Parentheses](241)
+- 
 
 ## backtracking
 - [357. Count Numbers with Unique Digits](357)
 - 
+
 ## dijkstra
 - [778. Swim in Rising Water](778) 5
 - [743. Network Delay Time](743)
@@ -72,22 +74,28 @@ bookCollapseSection: true
 - [787. Cheapest Flights Within K Stops](787)
 - [842. Split Array into Fibonacci Sequence](842)
 - [851. Loud and Rich](851) confusing problem description
+- [1391. Check if There is a Valid Path in a Grid](1391)
 - 
 ## super hard (5+)
 - [526. Beautiful Arrangement](526)
 - [909. Snakes and Ladders](909) classic, and super hard.
 - [947. Most Stones Removed with Same Row or Column](947)
-
+- [Minimum Swaps to Sort]()
 ## color 
 - [886. Possible Bipartition](886)
 - [934. Shortest Bridge](934)
-
-
+- [1034. Coloring A Border](1034)
+- [1129. Shortest Path with Alternating Colors](1129) 5
+- [1162. As Far from Land as Possible](1162)
+- 
 ## does not look like BFS/DFS but it IS
 - [357. Count Numbers with Unique Digits](357)
 - [386. Lexicographical Numbers](386)
 - [399. Evaluate Division](399) 4
 - [967. Numbers With Same Consecutive Differences](967)
+  
+## gcd
+- [914. X of a Kind in a Deck of Cards](914)
 - 
 ## easy 
 - [17. Letter Combinations of a Phone Number](17) easy dfs
@@ -99,4 +107,6 @@ bookCollapseSection: true
 ## medium
 - [286. Walls and Gates](286)
 - [473. Matchsticks to Square](473)
+- [1219. Path with Maximum Gold](1219)
+- [1239. Maximum Length of a Concatenated String with Unique Characters](1239)
 - 

@@ -11,5 +11,5 @@ BookToC: true
 ## greatest common divisor 最大公约数
 Also, c++ has `__gcd(int a, int b)` that can be used!
 
-[link](914)
-
+- [914](914)
+- [1071. Greatest Common Divisor of Strings](1071)
