@@ -9,9 +9,10 @@ bookCollapseSection: true
 [157](157)
 
 ## x 进制
-[171](171)
-[504. Base 7](504)
-
+- [171](171)
+- [504. Base 7](504)
+- [1017. Convert to Base -2](1017) negative base. See more on [wikipedia](https://en.wikipedia.org/wiki/Negative_base)
+- 
 ## bit operation
 ### signed int shift 
 signed int's shift is not defined in c++! unsigned is defined - to fill with 0s! see 371. Sum of Two Integers for example.

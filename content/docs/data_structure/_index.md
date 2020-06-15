@@ -5,13 +5,6 @@ BookToC: true
 ---
 
 #  Data Structure
-{: .no_toc }
-
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
 
 ## time complexity
 
@@ -51,7 +44,7 @@ template: [304](304)
 
 - [232. Implement Queue using Stacks](232)
 - [739. Daily Temperatures](739)
-- [362](362)
+- [362. Design Hit Counter](362)
 - [962. Maximum Width Ramp](962) hard, stack!
 - [735. Asteroid Collision](735) medium, interesting
 
@@ -101,3 +94,7 @@ but no `popMin()`. So 2 stacks is enough.
 
 ## worth looking
 - [957. Prison Cells After N Days](957)
+
+## parentheses
+- [20. Valid Parentheses](20)
+- 

@@ -1,5 +1,5 @@
 ---
-title: 44. Minimum Subarray
+title: lint Minimum Subarray
 parent: DP
 has_children: false
 weight: 5

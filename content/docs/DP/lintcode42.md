@@ -1,5 +1,5 @@
 ---
-title: 42. Maximum Subarray II
+title: lintcode Maximum Subarray II
 parent: DP
 has_children: false
 weight: 5
