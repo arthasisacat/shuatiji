@@ -1,17 +1,14 @@
 ---
+title: tree and graph
 weight: 3
 bookCollapseSection: true
 BookToC: true
 ---
-# Tree
-{: .no_toc }
+# Tree and Graph
 
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
+## classic
+- [133. Clone Graph](133)
+- 
 ## Traversal
 see [traversal_summary](traversal) for summary!!!
 
@@ -38,7 +35,15 @@ see [traversal_summary](traversal) for summary!!!
 - [648. Replace Words](648)
 
 ## Union Find
-- [union find problem list](union_find)
+
+template:
+[547](547) 
+
+- [721. Accounts Merge](721)
+- [1202. Smallest String With Swaps](docs/1202)
+- [684. Redundant Connection](684)
+- [990. Satisfiability of Equality Equations](990)
+
 
 ## serialization
 - [652. Find Duplicate Subtrees](652)

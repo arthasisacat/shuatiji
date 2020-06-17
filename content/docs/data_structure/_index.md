@@ -35,18 +35,21 @@ Adding, removing and moving the elements within the list or across several lists
 
 
 ## prefix sum
-304 (2D prefix sum)
+[304](304) (2D prefix sum)
 
 ## segment tree
 template: [304](304)
 
 ## queue, stack
-
 - [232. Implement Queue using Stacks](232)
 - [739. Daily Temperatures](739)
 - [362. Design Hit Counter](362)
 - [962. Maximum Width Ramp](962) hard, stack!
 - [735. Asteroid Collision](735) medium, interesting
+
+## stack
+- [385. Mini Parser](385) so hard!!! 我觉得我还是不会.
+
 
 ## hash table
 [890. Find and Replace Pattern](890)

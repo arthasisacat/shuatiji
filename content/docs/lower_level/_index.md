@@ -12,6 +12,7 @@ bookCollapseSection: true
 - [171](171)
 - [504. Base 7](504)
 - [1017. Convert to Base -2](1017) negative base. See more on [wikipedia](https://en.wikipedia.org/wiki/Negative_base)
+- [1073. Adding Two Negabinary Numbers](1073)
 - 
 ## bit operation
 ### signed int shift 

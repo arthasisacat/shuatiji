@@ -7,11 +7,11 @@ bookCollapseSection: true
 
 ## lalala
 [238](238) interesting!
-[53. Maximum Subarray](53) medium
+
 
 ## classic
 - [53. Maximum Subarray](53)
-- 
+  
 ## knapsacks
 - [1049. Last Stone Weight II](1049)
 - [416. Partition Equal Subset Sum](416)
@@ -24,6 +24,9 @@ bookCollapseSection: true
 - [354. Russian Doll Envelopes](354)
 - [673. Number of Longest Increasing Subsequence](673)
 
+## prefix sum and variation
+- [1177. Can Make Palindrome from Substring](1177) prefix oddity :) 
+- 
 
 ## word distance
 - [583. Delete Operation for Two Strings](583)
@@ -35,7 +38,7 @@ bookCollapseSection: true
 
 ## hard
 - [376. Wiggle Subsequence](376) solve it in O(n) is the hard part.
-
+- [837. New 21 Game](837)
 
 ## way too HARD
 - [1223. Dice Roll Simulation](1223)
