@@ -1,16 +1,14 @@
 ---
 title: problems
-has_children: false
 weight: 2
-parent: notes
-permalink: note_4
 ---
 # Problems
 
-
 ## parenthesis
-- [20. Valid Parentheses](20)
-- [921. Minimum Add to Make Parentheses Valid](921)
+
+
+- [20. Valid Parentheses]({{< ref "20.md" >}})
+- [921. Minimum Add to Make Parentheses Valid]({{< ref "921.md" >}})
 - [1111. Maximum Nesting Depth of Two Valid Parentheses Strings](1111)
 - [22. Generate Parentheses](22) dfs
 

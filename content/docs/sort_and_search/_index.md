@@ -24,6 +24,7 @@ BookToC: true
 - 
 ## bucket sort
 [link](347)
+[825. Friends Of Appropriate Ages]({{< ref "825.md" >}})
 
 ## sort linked list
 - [148. Sort List](148) merge sort, hard.

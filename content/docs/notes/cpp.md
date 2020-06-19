@@ -1,8 +1,5 @@
 ---
 title: cpp
-permalink: note_1
-parent: notes
-has_children: false
 weight: 6
 ---
 # C++ handing built in functions and usage

@@ -1,5 +1,6 @@
 ---
 weight: 1
+title: min swaps to sort
 ---
 # Minimum Swaps to Sort
 Google phone interview problem: [lin](https://leetcode.com/discuss/interview-question/346621/Google-or-Phone-Screen-or-Min-swaps-to-sort-array)

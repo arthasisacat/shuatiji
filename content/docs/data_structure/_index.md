@@ -4,36 +4,18 @@ bookCollapseSection: true
 BookToC: true
 ---
 
-#  Data Structure
+# Data Structure
 
-## time complexity
-
-### priority_queue
-If you have an array of size n and you want to build a heap from all items at once, Floyd's algorithm can do it with O(n) complexity. See Building a heap. This corresponds to the std::priority_queue constructors that accept a container parameter.
-
-If you have an empty priority queue to which you want to add n items, one at a time, then the complexity is O(n * log(n)).
-
-So if you have all of the items that will go into your queue before you build it, then the first method will be more efficient. You use the second method--adding items individually--when you need to maintain a queue: adding and removing elements over some time period.
-
-Removing n items from the priority queue also is O(n * log(n)).
-
-Documentation for std::priority_queue includes runtime complexity of all operations.
-
-example: 
-
-[692. Top K Frequent Words](692)
-
-### set
-std::set is commonly implemented as a red-black binary search tree. Insertion on this data structure has a worst-case of O(log(n)) complexity, as the tree is kept balanced.
-
-### list
-example problem: [](146)
-
-std::list is a container that supports constant time insertion and removal of elements from anywhere in the container (as long as you know the iterator). Fast random access is not supported. It is usually implemented as a doubly-linked list. Compared to std::forward_list this container provides bidirectional iteration capability while being less space efficient.
-
-Adding, removing and moving the elements within the list or across several lists does not invalidate the iterators or references. An iterator is invalidated only when the corresponding element is deleted.
-
-
+## ?? or TODO
+- [284. Peeking Iterator](284) wth?
+- 
+## important & classic
+- [394. Decode String](394) recursive and non recursive ways. 
+- [503. Next Greater Element II](503)
+- [957. Prison Cells After N Days](957)
+- [739. Daily Temperatures](739)
+- [819. Most Common Word ](819) easy one.
+- 
 ## prefix sum
 [304](304) (2D prefix sum)
 
@@ -41,22 +23,45 @@ Adding, removing and moving the elements within the list or across several lists
 template: [304](304)
 
 ## queue, stack
-- [232. Implement Queue using Stacks](232)
+- [394. Decode String](394)
 - [739. Daily Temperatures](739)
 - [362. Design Hit Counter](362)
-- [962. Maximum Width Ramp](962) hard, stack!
-- [735. Asteroid Collision](735) medium, interesting
+- [735. Asteroid Collision](735) 3
 
 ## stack
+- [739. Daily Temperatures](739) classic
+- [496. Next Greater Element I](496)
+- [503. Next Greater Element II](503)
 - [385. Mini Parser](385) so hard!!! 我觉得我还是不会.
+- [20. Valid Parentheses](20)
+- [962. Maximum Width Ramp](962) hard, stack!
+- [636. Exclusive Time of Functions](636) hard!!!
+
+## heap, priority_queue
+- [703. Kth Largest Element in a Stream](703) easy
+- [23. Merge k Sorted Lists](23)
+- [295. Find Median from Data Stream](295)
+- [373. Find K Pairs with Smallest Sums](373) customized heap compare function. LEARN!
 
 
+## design structure: LRU, LFU, queue, stack...
+- [LRU cache](146) 
+- [LFU cache](460)
+- [716. Max Stack](716) important!!! usage of `list`. Also compare this with 155
+- [155. Min Stack](155) Different method from 716 because this only ask for `getMin()`
+but no `popMin()`. So 2 stacks is enough. 
+- [225. Implement Stack using Queues](225)
+- [362. Design Hit Counter](362)
+- [380. Insert Delete GetRandom O(1)](380)
+- [622. Design Circular Queue](622)
+- [641. Design Circular Deque](641)
+- 
 ## hash table
-[890. Find and Replace Pattern](890)
-
-[290. Word Pattern](290)
-
-[128. Longest Consecutive Sequence](128)
+- [325. Maximum Size Subarray Sum Equals](325) important
+- [890. Find and Replace Pattern](890)
+- [290. Word Pattern](290)
+- [128. Longest Consecutive Sequence](128)
+- [791. Custom Sort String](791) does not look like hash table problem but it is
 
 Write hash function for `unordered_set<pair<int,int>>`: [939. mininum area rectangle](939)
 ```c++
@@ -65,39 +70,54 @@ struct pair_hash {
         return v.first*31+v.second;
     }
 };
-.
-...
+
 unordered_set<pair<int,int>,pair_hash> seen;   
 ```
+
+## use data structure wisely
+- [36. Valid Sudoku](36) 3.5
+- [73. Set Matrix Zeroes](73)
+- [119. Pascal's Triangle II](119)
+
+## data stream
+- [295. Find Median from Data Stream](295)
+- [703. Kth Largest Element in a Stream](703) easy, priority_queue
 
 ## array
 - [228. Summary Ranges](228)
 - [498. Diagonal Traverse](498) diagonally visit array
 - [1424. Diagonal Traverse II](1424) diagonally visit array
+- [659. Split Array into Consecutive Subsequences](659)
   
 ## line sweep
 [218. The Skyline Problem](218) hard
 
-## LRU, LFU...
-[LRU cache](146)
-
-[LFU cache](460)
-
-[716. Max Stack](716) Also compare this with 155~
-
-[155. Min Stack](155) Different method from 716 because this only ask for `getMin()`
-but no `popMin()`. So 2 stacks is enough. 
-
 ## hard!
 - [325](325)
 - [1171. Remove Zero Sum Consecutive Nodes from Linked List](1171)
+- [232. Implement Queue using Stacks](232)
+
 
 ## rotate image
-[48](48)
+[48. Rotate Image](48)
 
-## worth looking
-- [957. Prison Cells After N Days](957)
-
+## loop
+- [565. Array Nesting](565) 3
+- [min_swaps_to_sort](min_swaps_to_sort) this is same as 565 but looks harder
+- 
 ## parentheses
 - [20. Valid Parentheses](20)
+- [224. Basic Calculator](224)
+
+## calculator
+- [224. Basic Calculator](224)
+- [227. Basic Calculator II](227)
+- [772. Basic Calculator III](772) hard!!!
+
+## random pick
+- [497. Random Point in Non-overlapping Rectangles](497)
 - 
+## spiral matrix
+- [54. Spiral Matrix](54)
+- [59. Spiral Matrix II](59)
+- [885. Spiral Matrix III](885) too hard...

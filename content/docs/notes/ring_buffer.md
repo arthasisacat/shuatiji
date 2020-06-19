@@ -1,9 +1,6 @@
 ---
 title: ring_buffer
-parent: data_structure
-has_children: false
 weight: 5
-permalink: ring_buffer
 ---
 # Ring Buffer
 
