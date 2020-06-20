@@ -31,6 +31,7 @@ BookToC: true
 
 ## handy lower_bound/upper_bound
 - [658. Find K Closest Elements](658)
+- [911. Online Election](911) 4, good.
 
 ## custominzed sorting function
 

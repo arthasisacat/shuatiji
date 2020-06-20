@@ -15,7 +15,9 @@ BookToC: true
 - [957. Prison Cells After N Days](957)
 - [739. Daily Temperatures](739)
 - [819. Most Common Word ](819) easy one.
-- 
+- [962. Maximum Width Ramp](962)
+
+
 ## prefix sum
 [304](304) (2D prefix sum)
 
@@ -36,6 +38,13 @@ template: [304](304)
 - [20. Valid Parentheses](20)
 - [962. Maximum Width Ramp](962) hard, stack!
 - [636. Exclusive Time of Functions](636) hard!!!
+- [856. Score of Parentheses](856)
+- [921. Minimum Add to Make Parentheses Valid]({{< ref "921.md" >}}) easy
+- [946. Validate Stack Sequences](946) 4
+- [962. Maximum Width Ramp](962) !!! 5
+
+
+
 
 ## heap, priority_queue
 - [703. Kth Largest Element in a Stream](703) easy
@@ -43,7 +52,7 @@ template: [304](304)
 - [295. Find Median from Data Stream](295)
 - [373. Find K Pairs with Smallest Sums](373) customized heap compare function. LEARN!
 
-
+ 
 ## design structure: LRU, LFU, queue, stack...
 - [LRU cache](146) 
 - [LFU cache](460)
@@ -78,17 +87,24 @@ unordered_set<pair<int,int>,pair_hash> seen;
 - [36. Valid Sudoku](36) 3.5
 - [73. Set Matrix Zeroes](73)
 - [119. Pascal's Triangle II](119)
+- [835. Image Overlap](835) 2d to 1d, make it faster!
+- [911. Online Election](911) 4, good.
+- [916. Word Subsets](916) 3.5?
+
 
 ## data stream
 - [295. Find Median from Data Stream](295)
 - [703. Kth Largest Element in a Stream](703) easy, priority_queue
+- 
+
 
 ## array
 - [228. Summary Ranges](228)
 - [498. Diagonal Traverse](498) diagonally visit array
 - [1424. Diagonal Traverse II](1424) diagonally visit array
 - [659. Split Array into Consecutive Subsequences](659)
-  
+- [957. Prison Cells After N Days](957) 4
+
 ## line sweep
 [218. The Skyline Problem](218) hard
 
@@ -104,19 +120,22 @@ unordered_set<pair<int,int>,pair_hash> seen;
 ## loop
 - [565. Array Nesting](565) 3
 - [min_swaps_to_sort](min_swaps_to_sort) this is same as 565 but looks harder
-- 
+
+
 ## parentheses
-- [20. Valid Parentheses](20)
-- [224. Basic Calculator](224)
+Some are using stack, others are not. the complete list is [here](https://shuatiji.web.app/docs/notes/problems/)
+
 
 ## calculator
 - [224. Basic Calculator](224)
 - [227. Basic Calculator II](227)
 - [772. Basic Calculator III](772) hard!!!
 
+
 ## random pick
 - [497. Random Point in Non-overlapping Rectangles](497)
-- 
+
+
 ## spiral matrix
 - [54. Spiral Matrix](54)
 - [59. Spiral Matrix II](59)
