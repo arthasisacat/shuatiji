@@ -1,9 +1,6 @@
 ---
 title: 545. Top k Largest Numbers II
-parent: data_structure
-has_children: false
-weight: 500
-permalink: lintcode545
+weight: 4
 ---
 # 545. Top k Largest Numbers II
 [lintcode link](https://www.lintcode.com/problem/top-k-largest-numbers-ii/description)
@@ -45,22 +42,3 @@ s.topk()
 side note
 priority queue *一个一个插入是 n* log( n) 如果不是一个一个而是一起插入, 
 则可以达到最优的 O(n)构造时间. **
-
-
-Default label
-{: .label }
-
-Blue label
-{: .label .label-blue }
-
-Stable
-{: .label .label-green }
-
-New release
-{: .label .label-purple }
-
-Coming soon
-{: .label .label-yellow }
-
-Deprecated
-{: .label .label-red }

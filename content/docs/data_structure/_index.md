@@ -34,6 +34,7 @@ template: [304](304)
 - [739. Daily Temperatures](739) classic
 - [496. Next Greater Element I](496)
 - [503. Next Greater Element II](503)
+- [1019. Next Greater Node In Linked List](1019)
 - [385. Mini Parser](385) so hard!!! 我觉得我还是不会.
 - [20. Valid Parentheses](20)
 - [962. Maximum Width Ramp](962) hard, stack!
@@ -42,9 +43,9 @@ template: [304](304)
 - [921. Minimum Add to Make Parentheses Valid]({{< ref "921.md" >}}) easy
 - [946. Validate Stack Sequences](946) 4
 - [962. Maximum Width Ramp](962) !!! 5
-
-
-
+- [1003. Check If Word Is Valid After Substitutions](1003) 2
+- [1047. Remove All Adjacent Duplicates In String](1047) easy
+- [1249. Minimum Remove to Make Valid Parentheses](1249)
 
 ## heap, priority_queue
 - [703. Kth Largest Element in a Stream](703) easy
@@ -71,6 +72,7 @@ but no `popMin()`. So 2 stacks is enough.
 - [290. Word Pattern](290)
 - [128. Longest Consecutive Sequence](128)
 - [791. Custom Sort String](791) does not look like hash table problem but it is
+- [1282. Group the People Given the Group Size They Belong To](1282)
 
 Write hash function for `unordered_set<pair<int,int>>`: [939. mininum area rectangle](939)
 ```c++
@@ -90,7 +92,7 @@ unordered_set<pair<int,int>,pair_hash> seen;
 - [835. Image Overlap](835) 2d to 1d, make it faster!
 - [911. Online Election](911) 4, good.
 - [916. Word Subsets](916) 3.5?
-
+- [1405. Longest Happy String](1405) don't know which category this should fall into
 
 ## data stream
 - [295. Find Median from Data Stream](295)
@@ -104,7 +106,8 @@ unordered_set<pair<int,int>,pair_hash> seen;
 - [1424. Diagonal Traverse II](1424) diagonally visit array
 - [659. Split Array into Consecutive Subsequences](659)
 - [957. Prison Cells After N Days](957) 4
-
+- [1424. Diagonal Traverse II](1424) 
+    
 ## line sweep
 [218. The Skyline Problem](218) hard
 

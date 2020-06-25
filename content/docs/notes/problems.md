@@ -13,7 +13,7 @@ BookToC: true
 - [1111. Maximum Nesting Depth of Two Valid Parentheses Strings]({{< ref "1111.md" >}})
 - [22. Generate Parentheses](https://shuatiji.web.app/docs/bfs_dfs/22/) dfs
 - [856. Score of Parentheses]({{< ref "856.md" >}})
-
+- [1249. Minimum Remove to Make Valid Parentheses]({{< ref "1249.md" >}})
 ## Buying and Selling stocks
 
 - [121. Best Time to Buy and Sell Stock]({{< ref "121.md" >}})

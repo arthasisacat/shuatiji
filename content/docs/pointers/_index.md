@@ -16,3 +16,6 @@ BookToC: true
 - [15. 3Sum](15) 
 - [18. 4Sum](18)
 - [454. 4Sum II](454) hard
+
+## sliding window
+- [1209. Remove All Adjacent Duplicates in String II](1209) can be done by pointers, or stack. medium.
