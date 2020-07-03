@@ -73,7 +73,8 @@ but no `popMin()`. So 2 stacks is enough.
 - [128. Longest Consecutive Sequence](128)
 - [791. Custom Sort String](791) does not look like hash table problem but it is
 - [1282. Group the People Given the Group Size They Belong To](1282)
-
+- [49. Group Anagrams](49)
+- 
 Write hash function for `unordered_set<pair<int,int>>`: [939. mininum area rectangle](939)
 ```c++
 struct pair_hash {

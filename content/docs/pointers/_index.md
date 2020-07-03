@@ -1,9 +1,10 @@
 ---
+title: pointer, sliding window
 bookCollapseSection: true
 weight: 3
 BookToC: true
 ---
-# Pointers
+# Pointers and sliding window
 
 ## 需要重看!!!
 - [82. Remove Duplicates from Sorted List II](82)
@@ -19,3 +20,8 @@ BookToC: true
 
 ## sliding window
 - [1209. Remove All Adjacent Duplicates in String II](1209) can be done by pointers, or stack. medium.
+
+
+## counting
+- [169. Majority Element](169) 3 ways to do it
+- [229. Majority Element II](229) hard!!

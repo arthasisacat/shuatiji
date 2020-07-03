@@ -6,33 +6,58 @@ BookToC: true
 ---
 #  Sort and Search
 
-## Basics
+
+## TODO
+[540](540)
+
+## quick sort and merge sort template
+[template](quicksort_mergesort.md)
+
+## Basics/Classic
 - [bianry search basic](704)
 - [153. Find Minimum in Rotated Sorted Array](153)
-
+- [31. Next Permutation](31)
+- [33. Search in Rotated Sorted Array](33)
+- [81. Search in Rotated Sorted Array II](81) based on 33, but this one allows duplicates.
+- [34. Find First and Last Position of Element in Sorted Array](34) basic binary search
+- [215. Kth Largest Element in an Array](215) quick select
+- [378. Kth Smallest Element in a Sorted Matrix](378) hard, 必会!!!
 
 ## Important problem
 - [lintcode404](lintcode404)
-- [quick sort](quick_sort)
-- [merge sort](merge_sort)
 
 ## hard ones
+- [462. Minimum Moves to Equal Array Elements II](462) hard
 - [475. Heaters](475)  Use 2 method to do it! scan and binary search!
 - [528. Random Pick with Weight](528)
-- [378. Kth Smallest Element in a Sorted Matrix](378)
 - [81. Search in Rotated Sorted Array II](81) tricky. 必会!
+- [240. Search a 2D Matrix II](240) 4
+- [414. Third Maximum Number](414) 4
+## quick select
+- [215. Kth Largest Element in an Array](215) 
+- [462. Minimum Moves to Equal Array Elements II](462) hard
+
+## binary search on result
+- [69. Sqrt(x)](69)
+- [367. Valid Perfect Square](367)
 - 
 ## bucket sort
-[link](347)
-[825. Friends Of Appropriate Ages]({{< ref "825.md" >}})
-
-## sort linked list
+- [347. Top K Frequent Elements](347)
+- [825. Friends Of Appropriate Ages]({{< ref "825.md" >}})
+- [451. Sort Characters By Frequency](451)
+## devide and conquer
 - [148. Sort List](148) merge sort, hard.
-
+- [274. H-Index](274), [275](275.md) same
+- 
 ## handy lower_bound/upper_bound
 - [658. Find K Closest Elements](658)
 - [911. Online Election](911) 4, good.
+- [74. Search a 2D Matrix](74)
+- [436. Find Right Interval](436)
 
+## weird
+- [406. Queue Reconstruction by Height](406)
+- 
 ## custominzed sorting function
 
 ### customized sorting function for `set<pair<int,int>>`
@@ -49,14 +74,8 @@ weak ordering imposed by Compare.
 
 - [link](692)
 - [link](23)
-- [378 hard!!!](378)
+- [378. Kth Smallest Element in a Sorted Matrix](378) hard, 必会!!!
 
 ### customized sorting for `vector<vector<int>>`
 
 - [link](973) (also used lambda)
-
-## merge intervals
-- [56. Merge Intervals](docs/56) easy
-
-## TODO
-[540](540)

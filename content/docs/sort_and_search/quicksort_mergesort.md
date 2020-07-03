@@ -1,11 +1,7 @@
 ---
-title: merge_sort
-parent: sort_and_search
-has_children: false
-weight: 6
-permalink: merge_sort
+title: quick sort and merge sort
+weight: 0
 ---
-# Merge Sort Template
 ```c++
 class Solution {
 public:
@@ -69,13 +65,13 @@ public:
                 j--;
             }
             if (i <= j) {
-                int tmp = A[i];
-                A[i] = A[j];
-                A[j] = tmp;
+                swap(nums[i], nums[j]);
                 i++;
                 j--;
             }
         }
+        // note by now j is on left side of i. 
+        // start--- j - i --- end
         quick_sort(A, start, j);
         quick_sort(A, i, end);
     }

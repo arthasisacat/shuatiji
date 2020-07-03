@@ -5,6 +5,10 @@ BookToC: true
 ---
 # Problems
 
+## intervals
+- [56. Merge Intervals](56) easy
+- [252. Meeting Rooms]({{< ref "252.md" >}}) 
+- 
 ## parentheses
 
 - [921. Minimum Add to Make Parentheses Valid]({{< ref "921.md" >}}) easy
@@ -14,6 +18,7 @@ BookToC: true
 - [22. Generate Parentheses](https://shuatiji.web.app/docs/bfs_dfs/22/) dfs
 - [856. Score of Parentheses]({{< ref "856.md" >}})
 - [1249. Minimum Remove to Make Valid Parentheses]({{< ref "1249.md" >}})
+
 ## Buying and Selling stocks
 
 - [121. Best Time to Buy and Sell Stock]({{< ref "121.md" >}})

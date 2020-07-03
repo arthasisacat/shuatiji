@@ -13,3 +13,6 @@ Also, c++ has `__gcd(int a, int b)` that can be used!
 
 - [914](914)
 - [1071. Greatest Common Divisor of Strings](1071)
+
+## weird
+- [280. Wiggle Sort](280)

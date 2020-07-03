@@ -21,7 +21,8 @@ bookCollapseSection: true
 - [78. subsets](78)
 - [90. Subsets II](90)
 - [46. permutation](46)
-- [17. permutation ii](47)
+- [17. permutation ii](47) 
+  related to permutation: [31. Next Permutation]({{< ref "31.md" >}})
 - [1079. Letter Tile Possibilities](1079) similar to permutation
 - [39. Combination Sum ](39)
 - [40. Combination Sum II](40)
