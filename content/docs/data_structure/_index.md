@@ -46,7 +46,8 @@ template: [304](304)
 - [1003. Check If Word Is Valid After Substitutions](1003) 2
 - [1047. Remove All Adjacent Duplicates In String](1047) easy
 - [1249. Minimum Remove to Make Valid Parentheses](1249)
-
+- [71. Simplify Path](71)
+  
 ## heap, priority_queue
 - [703. Kth Largest Element in a Stream](703) easy
 - [23. Merge k Sorted Lists](23)
@@ -55,8 +56,8 @@ template: [304](304)
 
  
 ## design structure: LRU, LFU, queue, stack...
-- [LRU cache](146) 
-- [LFU cache](460)
+- [146. LRU cache](146)  use `list`
+- [460. LFU cache](460)
 - [716. Max Stack](716) important!!! usage of `list`. Also compare this with 155
 - [155. Min Stack](155) Different method from 716 because this only ask for `getMin()`
 but no `popMin()`. So 2 stacks is enough. 
