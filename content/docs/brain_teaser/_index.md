@@ -2,6 +2,7 @@
 weight: 99
 bookCollapseSection: true
 BookToC: true
+title: brain teaser and math
 ---
 #  brain_teaser
 
