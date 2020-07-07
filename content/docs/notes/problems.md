@@ -8,7 +8,7 @@ BookToC: true
 ## intervals
 - [56. Merge Intervals](56) easy
 - [252. Meeting Rooms]({{< ref "252.md" >}}) 
-- 
+- [1353. Maximum Number of Events That Can Be Attended]({{< ref "1353.md >}})
 ## parentheses
 
 - [921. Minimum Add to Make Parentheses Valid]({{< ref "921.md" >}}) easy
