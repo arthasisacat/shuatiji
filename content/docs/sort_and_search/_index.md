@@ -48,6 +48,7 @@ BookToC: true
 ## devide and conquer
 - [148. Sort List](148) merge sort, hard.
 - [274. H-Index](274), [275](275.md) same
+- [50. Pow(x, n)](50)
 - 
 ## handy lower_bound/upper_bound
 - [658. Find K Closest Elements](658)
