@@ -8,6 +8,7 @@ BookToC: true
 
 ## classic
 - [133. Clone Graph](133)
+- [98. Validate Binary Search Tree](98)
 - 
 ## Traversal
 see [traversal_summary](traversal) for summary!!!

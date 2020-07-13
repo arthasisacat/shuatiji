@@ -11,12 +11,14 @@ bookCollapseSection: true
 - [802. Find Eventual Safe States](802)
 - [959. Regions Cut By Slashes](959)
 - [1306. Jump Game III](1306)
-- 
+- [127. Word Ladder](127)
+
 ## parentheses
 - [22. Generate Parentheses](22)
 - [241. Different Ways to Add Parentheses](241)
 
 ## classic
+- [127. Word Ladder](127)
 - [200. Number of Islands](200)
 - [78. subsets](78)
 - [90. Subsets II](90)
@@ -28,6 +30,7 @@ bookCollapseSection: true
 - [40. Combination Sum II](40)
 - [131. Palindrome Partitioning](131) very ordinary solution
 - [733. Flood Fill](733) easy
+- [1514. Path with Maximum Probability](1514)
 - 
 ## combinational sum
 - [39. Combination Sum ](39)
@@ -41,7 +44,7 @@ bookCollapseSection: true
 
 ## backtracking
 - [357. Count Numbers with Unique Digits](357)
-- 
+- [306. Additive Number](306)
 
 ## dijkstra
 - [778. Swim in Rising Water](778) 5

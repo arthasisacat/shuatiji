@@ -8,8 +8,9 @@ BookToC: true
 
 
 ## TODO
-[540](540)
-
+- [540](540)
+- [324. Wiggle Sort II](324)
+- 
 ## quick sort and merge sort template
 [template](quicksort_mergesort.md)
 
@@ -27,6 +28,7 @@ BookToC: true
 - [lintcode404](lintcode404)
 
 ## hard ones
+- [324. Wiggle Sort II](324) Super hard!
 - [462. Minimum Moves to Equal Array Elements II](462) hard
 - [475. Heaters](475)  Use 2 method to do it! scan and binary search!
 - [528. Random Pick with Weight](528)
@@ -58,7 +60,9 @@ BookToC: true
 
 ## weird
 - [406. Queue Reconstruction by Height](406)
-- 
+- [179. Largest Number](179) 3.5
+
+
 ## custominzed sorting function
 
 ### customized sorting function for `set<pair<int,int>>`

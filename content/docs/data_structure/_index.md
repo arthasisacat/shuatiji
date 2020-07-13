@@ -48,7 +48,9 @@ template: [304](304)
 - [1047. Remove All Adjacent Duplicates In String](1047) easy
 - [1249. Minimum Remove to Make Valid Parentheses](1249)
 - [71. Simplify Path](71)
-  
+- [402. Remove K Digits](402) hard
+- [456. 132 Pattern](456) hard!
+- [1475. Final Prices With a Special Discount in a Shop](1475) 2
 ## heap, priority_queue
 - [703. Kth Largest Element in a Stream](703) easy
 - [23. Merge k Sorted Lists](23)
