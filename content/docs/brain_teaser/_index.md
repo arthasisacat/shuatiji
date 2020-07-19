@@ -5,7 +5,9 @@ BookToC: true
 title: brain teaser and math
 ---
 #  brain_teaser
-
+## classic
+- [1185. Day of the Week](1185) boring but classic
+- 
 ## 概率
 [398. Random Pick Index](398)
 
@@ -17,3 +19,7 @@ Also, c++ has `__gcd(int a, int b)` that can be used!
 
 ## weird
 - [280. Wiggle Sort](280)
+
+## prime 
+- [204. Count Primes](204)
+- [866. Prime Palindrome](866)

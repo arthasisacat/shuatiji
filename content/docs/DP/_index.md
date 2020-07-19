@@ -11,7 +11,9 @@ bookCollapseSection: true
 
 ## classic
 - [53. Maximum Subarray](53)
-  
+- [91. Decode Ways](91)
+
+
 ## knapsacks
 - [1049. Last Stone Weight II](1049)
 - [416. Partition Equal Subset Sum](416)
@@ -26,7 +28,7 @@ bookCollapseSection: true
 
 ## prefix sum and variation
 - [1177. Can Make Palindrome from Substring](1177) prefix oddity :) 
-- 
+- [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum](1177)
 
 ## word distance
 - [583. Delete Operation for Two Strings](583)

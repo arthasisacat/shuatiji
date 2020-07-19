@@ -19,8 +19,9 @@ BookToC: true
 
 
 ## prefix sum
-[304](304) (2D prefix sum)
-
+- [304](304) (2D prefix sum)
+- [523. Continuous Subarray Sum](523)
+- 
 ## segment tree
 template: [304](304)
 
@@ -51,6 +52,7 @@ template: [304](304)
 - [402. Remove K Digits](402) hard
 - [456. 132 Pattern](456) hard!
 - [1475. Final Prices With a Special Discount in a Shop](1475) 2
+  
 ## heap, priority_queue
 - [703. Kth Largest Element in a Stream](703) easy
 - [23. Merge k Sorted Lists](23)
@@ -98,6 +100,7 @@ unordered_set<pair<int,int>,pair_hash> seen;
 - [911. Online Election](911) 4, good.
 - [916. Word Subsets](916) 3.5?
 - [1405. Longest Happy String](1405) don't know which category this should fall into
+- [1488. Avoid Flood in The City](1488)
 
 ## data stream
 - [295. Find Median from Data Stream](295)

@@ -35,6 +35,7 @@ BookToC: true
 - [81. Search in Rotated Sorted Array II](81) tricky. 必会!
 - [240. Search a 2D Matrix II](240) 4
 - [414. Third Maximum Number](414) 4
+- [1201. Ugly Number III](1201) 5
 ## quick select
 - [215. Kth Largest Element in an Array](215) 
 - [462. Minimum Moves to Equal Array Elements II](462) hard

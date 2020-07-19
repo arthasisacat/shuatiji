@@ -12,6 +12,6 @@ bookCollapseSection: true
 - [763. Partition Labels](763)
 - [826. Most Profit Assigning Work](826)
 - [955. Delete Columns to Make Sorted II](955.md)
-- 
+- [910. Smallest Range II](910)!!!! important!!!
 ## might be greedy?
 [11](11)

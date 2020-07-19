@@ -80,6 +80,7 @@ bookCollapseSection: true
 - [842. Split Array into Fibonacci Sequence](842)
 - [851. Loud and Rich](851) confusing problem description
 - [1391. Check if There is a Valid Path in a Grid](1391)
+- [130. Surrounded Regions](130)
 - 
 ## super hard (5+)
 - [526. Beautiful Arrangement](526)
