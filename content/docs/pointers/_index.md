@@ -13,6 +13,7 @@ BookToC: true
 ## important/classic
 - [1124. Longest Well-Performing Interval](1124)
 - [75. Sort Colors](75)
+- 
 ## 2 sum series
 - [1. Two Sum](1) easy
 - [15. 3Sum](15) 
@@ -22,6 +23,8 @@ BookToC: true
 ## sliding window
 - [1209. Remove All Adjacent Duplicates in String II](1209) can be done by pointers, or stack. medium.
 
+## hard
+- [880. Decoded String at Index](800)
 
 ## counting
 - [169. Majority Element](169) 3 ways to do it

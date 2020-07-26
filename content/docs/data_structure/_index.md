@@ -71,7 +71,9 @@ but no `popMin()`. So 2 stacks is enough.
 - [380. Insert Delete GetRandom O(1)](380)
 - [622. Design Circular Queue](622)
 - [641. Design Circular Deque](641)
-- 
+- [707. Design Linked List](707)
+
+
 ## hash table
 - [325. Maximum Size Subarray Sum Equals](325) important
 - [890. Find and Replace Pattern](890)
@@ -115,7 +117,9 @@ unordered_set<pair<int,int>,pair_hash> seen;
 - [659. Split Array into Consecutive Subsequences](659)
 - [957. Prison Cells After N Days](957) 4
 - [1424. Diagonal Traverse II](1424) 
-    
+- [220. Contains Duplicate III](220)
+  
+  
 ## line sweep
 [218. The Skyline Problem](218) hard
 

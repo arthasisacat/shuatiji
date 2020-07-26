@@ -4,7 +4,7 @@ bookCollapseSection: true
 BookToC: true
 title: brain teaser and math
 ---
-#  brain_teaser
+#  brain_teaser and math
 ## classic
 - [1185. Day of the Week](1185) boring but classic
 - 

@@ -81,12 +81,15 @@ bookCollapseSection: true
 - [851. Loud and Rich](851) confusing problem description
 - [1391. Check if There is a Valid Path in a Grid](1391)
 - [130. Surrounded Regions](130)
-- 
+- [1466. Reorder Routes to Make All Paths Lead to the City Zero](1466)
+  
 ## super hard (5+)
 - [526. Beautiful Arrangement](526)
 - [909. Snakes and Ladders](909) classic, and super hard.
 - [947. Most Stones Removed with Same Row or Column](947)
 - [Minimum Swaps to Sort]()
+
+
 ## color 
 - [886. Possible Bipartition](886)
 - [934. Shortest Bridge](934)
