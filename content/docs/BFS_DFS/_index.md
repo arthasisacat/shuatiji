@@ -11,7 +11,6 @@ bookCollapseSection: true
 - [802. Find Eventual Safe States](802)
 - [959. Regions Cut By Slashes](959)
 - [1306. Jump Game III](1306)
-- [127. Word Ladder](127)
 
 ## parentheses
 - [22. Generate Parentheses](22)

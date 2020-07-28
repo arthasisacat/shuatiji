@@ -7,8 +7,6 @@ BookToC: true
 ## Memory hiarrarchy
 ![image info](../memory_management.png)
 
-![pic](https://gabrieletolomei.files.wordpress.com/2013/10/program_in_memory2.png)
-
 ## Address spaces
 
 Exposing physical meory to processes has several major drawbacks:

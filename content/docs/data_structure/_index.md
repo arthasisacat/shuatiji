@@ -36,7 +36,7 @@ template: [304](304)
 - [739. Daily Temperatures](739) classic
 - [496. Next Greater Element I](496)
 - [503. Next Greater Element II](503)
-- [1019. Next Greater Node In Linked List](1019)
+- [1019. Next Greater Node In Linked List](1019) good! 4
 - [385. Mini Parser](385) so hard!!! 我觉得我还是不会.
 - [20. Valid Parentheses](20)
 - [962. Maximum Width Ramp](962) hard, stack!
