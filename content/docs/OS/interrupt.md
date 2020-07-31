@@ -4,10 +4,21 @@ BookToC: true
 ---
 # Interrupt
 
+## introduction
+An interrupt condition alerts the processor and serves as a request for the processor to interrupt the currently executing code when permitted, so that the event can be processed in a timely manner. If the request is accepted, the processor responds by suspending its current activities, saving its state, and executing a function called an interrupt handler (or an interrupt service routine, ISR) to deal with the event. This interruption is temporary, and, unless the interrupt indicates a fatal error, the processor resumes normal activities after the interrupt handler finishes.(from [wikipedia](https://en.wikipedia.org/wiki/Interrupt))
+
+## some concepts
+### Masking
+Processors typically have an internal interrupt mask register which allows selective enabling and disabling of hardware interrupts. Each interrupt signal is associated with a bit in the mask register; on some systems, the interrupt is enabled when the bit is set and disabled when the bit is clear, while on others, a set bit disables the interrupt. When the interrupt is disabled, the associated interrupt signal will be ignored by the processor. Signals which are affected by the mask are called maskable interrupts.
+
+Some interrupt signals are not affected by the interrupt mask and therefore cannot be disabled; these are called non-maskable interrupts (NMI). NMIs indicate high priority events which cannot be ignored under any circumstances, such as the timeout signal from a watchdog timer.
+
+To mask an interrupt is to disable it, while to unmask an interrupt is to enable it.[5]
+
 ## big picture
 
-1. An interrupt requestion (IRQ) happensinside the processor, based on a peripheral, the software, or a fault in the system.
-2. The processor saves where it was (the context)
+1. An interrupt requestion (IRQ) happensinside the processor, based on a peripheral (hardware), the software, or a fault in the system.
+2. The processor saves where it was (the context, including program counter(PC)). Device is informed that its request has been recognized and the device deactivates the request signal.
 3. The processor looks in the interrupt vector table to find the callback function associated with the interrupt.
 4. the call back function (ISR/interrupt service routine/interrupt handler) runs
 
