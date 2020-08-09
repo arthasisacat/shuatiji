@@ -13,6 +13,7 @@ bookCollapseSection: true
 - [504. Base 7](504)
 - [1017. Convert to Base -2](1017) negative base. See more on [wikipedia](https://en.wikipedia.org/wiki/Negative_base)
 - [1073. Adding Two Negabinary Numbers](1073)
+- [29. Divide Two Integers]({{< ref "29.md" >}}) hard
 - 
 ## bit operation
 ### signed int shift 

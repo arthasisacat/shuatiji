@@ -23,3 +23,6 @@ Also, c++ has `__gcd(int a, int b)` that can be used!
 ## prime 
 - [204. Count Primes](204)
 - [866. Prime Palindrome](866)
+
+## math
+- [29. Divide Two Integers]({{< ref "29.md" >}})

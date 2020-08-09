@@ -13,6 +13,7 @@ BookToC: true
 ## important/classic
 - [1124. Longest Well-Performing Interval](1124)
 - [75. Sort Colors](75)
+- [3. Longest Substring Without Repeating Characters](3.md) classic
 - 
 ## 2 sum series
 - [1. Two Sum](1) easy
