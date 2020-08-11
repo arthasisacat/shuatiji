@@ -52,6 +52,7 @@ template: [304](304)
 - [402. Remove K Digits](402) hard
 - [456. 132 Pattern](456) hard!
 - [1475. Final Prices With a Special Discount in a Shop](1475) 2
+- [32. Longest Valid Parentheses](32)
   
 ## heap, priority_queue
 - [703. Kth Largest Element in a Stream](703) easy
@@ -82,7 +83,9 @@ but no `popMin()`. So 2 stacks is enough.
 - [791. Custom Sort String](791) does not look like hash table problem but it is
 - [1282. Group the People Given the Group Size They Belong To](1282)
 - [49. Group Anagrams](49)
-- 
+- [30. Substring with Concatenation of All Words](30) 
+
+
 Write hash function for `unordered_set<pair<int,int>>`: [939. mininum area rectangle](939)
 ```c++
 struct pair_hash {

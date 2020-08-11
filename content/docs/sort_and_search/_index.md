@@ -21,7 +21,7 @@ BookToC: true
 - [33. Search in Rotated Sorted Array](33)
 - [81. Search in Rotated Sorted Array II](81) based on 33, but this one allows duplicates.
 - [34. Find First and Last Position of Element in Sorted Array](34) basic binary search
-- [215. Kth Largest Element in an Array](215) quick select
+- [215. Kth Largest Element in an Array](215) quick select !!!!
 - [378. Kth Smallest Element in a Sorted Matrix](378) hard, 必会!!!
 
 ## Important problem
@@ -40,6 +40,7 @@ BookToC: true
 
 ## quick select
 - [215. Kth Largest Element in an Array](215) 
+- [4. Median of Two Sorted Arrays](4)
 - [462. Minimum Moves to Equal Array Elements II](462) hard
 
 ## binary search on result

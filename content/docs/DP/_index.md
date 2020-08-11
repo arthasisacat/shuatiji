@@ -5,6 +5,8 @@ bookCollapseSection: true
 ---
 # Dynamic Programming
 
+## need to look again
+- [10. Regular Expression Matching](10)
 ## lalala
 [238](238) interesting!
 
@@ -41,6 +43,7 @@ bookCollapseSection: true
 ## hard
 - [376. Wiggle Subsequence](376) solve it in O(n) is the hard part.
 - [837. New 21 Game](837)
+- [10. Regular Expression Matching](10)
 
 ## way too HARD
 - [1223. Dice Roll Simulation](1223)
