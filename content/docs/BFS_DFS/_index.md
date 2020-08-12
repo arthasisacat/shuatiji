@@ -30,7 +30,9 @@ bookCollapseSection: true
 - [131. Palindrome Partitioning](131) very ordinary solution
 - [733. Flood Fill](733) easy
 - [1514. Path with Maximum Probability](1514)
-- 
+- [51. N-Queens](51)
+  
+  
 ## combinational sum
 - [39. Combination Sum ](39)
 - [40. Combination Sum II](40)
