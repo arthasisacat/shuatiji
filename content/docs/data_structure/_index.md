@@ -84,7 +84,7 @@ but no `popMin()`. So 2 stacks is enough.
 - [1282. Group the People Given the Group Size They Belong To](1282)
 - [49. Group Anagrams](49)
 - [30. Substring with Concatenation of All Words](30) 
-
+- [966. Vowel Spellchecker](966) hard
 
 Write hash function for `unordered_set<pair<int,int>>`: [939. mininum area rectangle](939)
 ```c++
@@ -145,7 +145,7 @@ Some are using stack, others are not. the complete list is [here](https://shuati
 
 
 ## calculator
-- [224. Basic Calculator](224)
+- [224. Basic Calculator](224) simpler version of 772
 - [227. Basic Calculator II](227)
 - [772. Basic Calculator III](772) hard!!!
 

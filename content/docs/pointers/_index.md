@@ -15,6 +15,10 @@ BookToC: true
 - [75. Sort Colors](75)
 - [3. Longest Substring Without Repeating Characters](3.md) classic
 
+## intervals
+- [57. Insert Interval](57) seems to be pretty simple to need to be cautious to not make mistakes.
+
+
 ## 2 sum series
 - [1. Two Sum](1) easy
 - [15. 3Sum](15) 

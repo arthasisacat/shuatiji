@@ -24,3 +24,4 @@ Anything related to string yet cannot fit into other categories comes here...
 ## hard
 - [459](459)
 - [686](686)
+- [966. Vowel Spellchecker](966) hard

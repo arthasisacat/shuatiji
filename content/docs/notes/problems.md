@@ -22,9 +22,11 @@ BookToC: true
 - 
 ## Buying and Selling stocks
 
-- [121. Best Time to Buy and Sell Stock]({{< ref "121.md" >}})
+- [121. Best Time to Buy and Sell Stock]({{< ref "121.md" >}}) easy
+- [122. Best Time to Buy and Sell Stock II]({{< ref "122.md" >}}) easy
+- [123. Best Time to Buy and Sell Stock III]({{< ref "123.md" >}}) same as 188
 - [714. Best Time to Buy and Sell Stock with Transaction Fee]({{< ref "714.md" >}})
-- [122. Best Time to Buy and Sell Stock II]({{< ref "122.md" >}})
+- [188. Best Time to Buy and Sell Stock IV]({{< ref "188.md" >}})
 - [309. Best Time to Buy and Sell Stock with Cooldown]({{< ref "309.md" >}})
 
 ## Floyd–Warshall algorithm
