@@ -14,7 +14,8 @@ BookToC: true
 - [1124. Longest Well-Performing Interval](1124)
 - [75. Sort Colors](75)
 - [3. Longest Substring Without Repeating Characters](3.md) classic
-
+- [76. Minimum Window Substring](76)
+ 
 ## intervals
 - [57. Insert Interval](57) seems to be pretty simple to need to be cautious to not make mistakes.
 
@@ -39,5 +40,7 @@ BookToC: true
 ## linked list
 - [61. Rotate List](61) normal 
 - [25. Reverse Nodes in k-Group](25) hard
+
+
 ## interesting
 - [13. Roman to Integer](13)
