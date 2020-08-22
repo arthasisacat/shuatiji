@@ -16,6 +16,8 @@ see [traversal_summary](traversal) for summary!!!
 - inorder traversal [94](94)
 - [173. Binary Search Tree Iterator](173)
 - preorder traversal [144](144)
+- [ 99. Recover Binary Search Tree](99) hard 还是不会
+
 
 ## recursive/dfs
 - [1367. Linked List in Binary Tree](1367) hard

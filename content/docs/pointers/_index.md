@@ -7,7 +7,6 @@ BookToC: true
 # Pointers and sliding window
 
 ## 需要重看!!!
-- [82. Remove Duplicates from Sorted List II](82)
 - [457. Circular Array Loop](457) find loop, very hard
 
 ## important/classic
@@ -15,6 +14,7 @@ BookToC: true
 - [75. Sort Colors](75)
 - [3. Longest Substring Without Repeating Characters](3.md) classic
 - [76. Minimum Window Substring](76)
+- [82. Remove Duplicates from Sorted List II](82)
  
 ## intervals
 - [57. Insert Interval](57) seems to be pretty simple to need to be cautious to not make mistakes.
@@ -40,7 +40,9 @@ BookToC: true
 ## linked list
 - [61. Rotate List](61) normal 
 - [25. Reverse Nodes in k-Group](25) hard
-
+- [82. Remove Duplicates from Sorted List II](82)
+- [86. Partition List](86) easy
+- [92. Reverse Linked List II](92) hard!!
 
 ## interesting
 - [13. Roman to Integer](13)
