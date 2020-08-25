@@ -51,11 +51,14 @@ BookToC: true
 - [347. Top K Frequent Elements](347)
 - [825. Friends Of Appropriate Ages]({{< ref "825.md" >}})
 - [451. Sort Characters By Frequency](451)
+
 ## devide and conquer
 - [148. Sort List](148) merge sort, hard.
 - [274. H-Index](274), [275](275.md) same
 - [50. Pow(x, n)](50)
-- 
+- [108. Convert Sorted Array to Binary Search Tree]({{< ref "108.md" >}})
+
+
 ## handy lower_bound/upper_bound
 - [658. Find K Closest Elements](658)
 - [911. Online Election](911) 4, good.
