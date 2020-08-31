@@ -46,7 +46,7 @@ bookCollapseSection: true
 - [241. Different Ways to Add Parentheses](241)
 ### quad tree
 - [427. Construct Quad Tree]({{< ref "427.md" >}})
-- [558 quad tree]({{< ref "558.md"> }})
+- [558 quad tree]({{< ref "558.md" >}})
 
 ## backtracking
 - [357. Count Numbers with Unique Digits](357)
