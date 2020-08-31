@@ -41,7 +41,12 @@ bookCollapseSection: true
 
 ## devide and conquer
 - [241. Different Ways to Add Parentheses](241)
-- 
+- [96. Unique Binary Search Trees](96)
+- [95. Unique Binary Search Trees II](95)
+- [241. Different Ways to Add Parentheses](241)
+### quad tree
+- [427. Construct Quad Tree]({{< ref "427.md" >}})
+- [558 quad tree]({{< ref "558.md"> }})
 
 ## backtracking
 - [357. Count Numbers with Unique Digits](357)
@@ -60,11 +65,6 @@ bookCollapseSection: true
 - [241. Different Ways to Add Parentheses](241)
 - [95. Unique Binary Search Trees II](95)
 
-## devide and conquer
-- [96. Unique Binary Search Trees](96)
-- [95. Unique Binary Search Trees II](95)
-- [241. Different Ways to Add Parentheses](241)
-  
 ## hard 4~5
 - [756. Pyramid Transition Matrix](756)
 - [494. Target Sum](494)

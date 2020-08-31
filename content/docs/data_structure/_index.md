@@ -106,6 +106,8 @@ unordered_set<pair<int,int>,pair_hash> seen;
 - [916. Word Subsets](916) 3.5?
 - [1405. Longest Happy String](1405) don't know which category this should fall into
 - [1488. Avoid Flood in The City](1488)
+- [119. Pascal's Triangle II](119) do it in place
+
 
 ## data stream
 - [295. Find Median from Data Stream](295)

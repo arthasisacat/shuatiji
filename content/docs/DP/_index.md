@@ -37,8 +37,13 @@ bookCollapseSection: true
 - [72. Edit Distance](72) hard
 
 ## 分情况讨论的 dp
+- [198. House Robber](198) 
+- [213. House Robber II](213) harder than 198
 - [801. Minimum Swaps To Make Sequences Increasing](801) 一旦被提示了就会做了
 
+## medium
+- [120. Triangle](120)
+- 
 
 ## hard
 - [376. Wiggle Subsequence](376) solve it in O(n) is the hard part.
