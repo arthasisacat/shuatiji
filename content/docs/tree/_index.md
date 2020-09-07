@@ -15,7 +15,8 @@ BookToC: true
 ## classic
 - [133. Clone Graph](133) BFS/DFS
 - [98. Validate Binary Search Tree](98)
-- [105. Construct Binary Tree from Preorder and Inorder Traversal]
+- [105. Construct Binary Tree from Preorder and Inorder Traversal](105)
+- [889. Construct Binary Tree from Preorder and Postorder Traversal](889)
 - [235. Lowest Common Ancestor of a Binary Search Tree](235)
 - [113. Path Sum II](113)
 - [543. Diameter of Binary Tree](543)
@@ -32,6 +33,7 @@ BookToC: true
 - [572. Subtree of Another Tree](572) 可以一看
 - [606. Construct String from Binary Tree](606) 3
 - [653. Two Sum IV - Input is a BST](653) basic
+- [783. Minimum Distance Between BST Nodes](783) inorder
 
 
 ### level order traversal
@@ -51,6 +53,19 @@ BookToC: true
 - [547. Friend Circles](547) DFS/Union Find
 - [654. Maximum Binary Tree](654) 
 - [669. Trim a Binary Search Tree](669)
+- [687. Longest Univalue Path](687) pretty classic, easy if you know how to do it.
+- [690. Employee Importance](690) easy
+- [823. Binary Trees With Factors](823) hard
+- [863. All Nodes Distance K in Binary Tree](863) hard
+
+
+## BFS
+- [743. Network Delay Time](764) BFS, or dijkstra (BFS + priority_queue)
+
+## dijkstra
+- [778. Swim in Rising Water](778)
+- [743. Network Delay Time](743)
+
 
 ## iterative
 - [117. Populating Next Right Pointers in Each Node II](117) hard
@@ -79,9 +94,6 @@ BookToC: true
 - [652. Find Duplicate Subtrees](652)
 - [449. Serialize and Deserialize BST](449)
 
-## dijkstra
-- [778. Swim in Rising Water](778)
-- [743. Network Delay Time](743)
 
 ## indegree, outdegree
 - [331. Verify Preorder Serialization of a Binary Tree](331)
@@ -96,8 +108,11 @@ BookToC: true
 - [331. Verify Preorder Serialization of a Binary Tree](331) 还是不懂
 - [437. Path Sum III](437) 5
 - [450. Delete Node in a BST](450)
+- [823. Binary Trees With Factors](823)
+
 
 ## devide and conquer
+- [894. All Possible Full Binary Trees](894)
 ### quad tree
 - [427. Construct Quad Tree](427)
 - [558 quad tree](558)

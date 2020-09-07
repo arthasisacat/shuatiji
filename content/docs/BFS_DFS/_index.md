@@ -97,7 +97,9 @@ bookCollapseSection: true
 - [1034. Coloring A Border](1034)
 - [1129. Shortest Path with Alternating Colors](1129) 5
 - [1162. As Far from Land as Possible](1162)
-- 
+- [785. Is Graph Bipartite?]({{< ref "785.md" >}})
+
+
 ## does not look like BFS/DFS but it IS
 - [357. Count Numbers with Unique Digits](357)
 - [386. Lexicographical Numbers](386)
