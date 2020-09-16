@@ -20,7 +20,7 @@ BookToC: true
 - [235. Lowest Common Ancestor of a Binary Search Tree](235)
 - [113. Path Sum II](113)
 - [543. Diameter of Binary Tree](543)
-
+- [1038. Binary Search Tree to Greater Sum Tree](1038) both recursive and iterative
 
 ## Traversal
 - see [traversal_summary](traversal) for summary
@@ -34,7 +34,8 @@ BookToC: true
 - [606. Construct String from Binary Tree](606) 3
 - [653. Two Sum IV - Input is a BST](653) basic
 - [783. Minimum Distance Between BST Nodes](783) inorder
-
+- [987. Vertical Order Traversal of a Binary Tree](987)
+- [1008. Construct Binary Search Tree from Preorder Traversal](1008) easy, basic concept of BST
 
 ### level order traversal
 - [102. Binary Tree Level Order Traversal](120) level traversal
@@ -44,6 +45,17 @@ BookToC: true
 - [429. N-ary Tree Level Order Traversal](429)
 - [513. Find Bottom Left Tree Value](513) 3
 - [662. Maximum Width of Binary Tree](662) hard
+- [993. Cousins in Binary Tree](993) 2
+
+
+## BFS
+- [743. Network Delay Time](764) BFS, or dijkstra (BFS + priority_queue)
+
+## dijkstra
+- [778. Swim in Rising Water](778)
+- [743. Network Delay Time](743)
+
+
 
 ## recursive/dfs
 - [1367. Linked List in Binary Tree](1367) hard
@@ -57,15 +69,11 @@ BookToC: true
 - [690. Employee Importance](690) easy
 - [823. Binary Trees With Factors](823) hard
 - [863. All Nodes Distance K in Binary Tree](863) hard
-
-
-## BFS
-- [743. Network Delay Time](764) BFS, or dijkstra (BFS + priority_queue)
-
-## dijkstra
-- [778. Swim in Rising Water](778)
-- [743. Network Delay Time](743)
-
+- [938. Range Sum of BST](938) easy
+- [951. Flip Equivalent Binary Trees](951) easy
+- [988. Smallest String Starting From Leaf](988)
+- [1022. Sum of Root To Leaf Binary Numbers](1022) easy
+- [1026. Maximum Difference Between Node and Ancestor](1026) 2.5
 
 ## iterative
 - [117. Populating Next Right Pointers in Each Node II](117) hard
@@ -94,6 +102,9 @@ BookToC: true
 - [652. Find Duplicate Subtrees](652)
 - [449. Serialize and Deserialize BST](449)
 
+## complete binary tree
+- [919. Complete Binary Tree Inserter](919)
+- [958. Check Completeness of a Binary Tree](958)
 
 ## indegree, outdegree
 - [331. Verify Preorder Serialization of a Binary Tree](331)
@@ -109,7 +120,7 @@ BookToC: true
 - [437. Path Sum III](437) 5
 - [450. Delete Node in a BST](450)
 - [823. Binary Trees With Factors](823)
-
+- [979. Distribute Coins in Binary Tree](979)
 
 ## devide and conquer
 - [894. All Possible Full Binary Trees](894)
