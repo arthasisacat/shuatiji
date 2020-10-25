@@ -15,7 +15,7 @@ BookToC: true
 - [20. Valid Parentheses]({{< ref "20.md" >}})
 - [921. Minimum Add to Make Parentheses Valid]({{< ref "921.md" >}})
 - [1111. Maximum Nesting Depth of Two Valid Parentheses Strings]({{< ref "1111.md" >}})
-- [22. Generate Parentheses](https://shuatiji.web.app/docs/bfs_dfs/22/) dfs
+- [22. Generate Parentheses]({{< ref "22.md" >}}) dfs
 - [856. Score of Parentheses]({{< ref "856.md" >}})
 - [1249. Minimum Remove to Make Valid Parentheses]({{< ref "1249.md" >}})
 - [678. Valid Parenthesis String]({{< ref "678.md" >}})

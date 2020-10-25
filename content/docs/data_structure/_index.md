@@ -53,7 +53,9 @@ template: [304](304)
 - [456. 132 Pattern](456) hard!
 - [1475. Final Prices With a Special Discount in a Shop](1475) 2
 - [32. Longest Valid Parentheses](32)
-  
+- [84. Largest Rectangle in Histogram](84) hard
+
+
 ## heap, priority_queue
 - [703. Kth Largest Element in a Stream](703) easy
 - [23. Merge k Sorted Lists](23)

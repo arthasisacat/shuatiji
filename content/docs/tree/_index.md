@@ -64,7 +64,6 @@ BookToC: true
 
 
 ## recursive/dfs
-- [1367. Linked List in Binary Tree](1367) hard
 - [226. Invert Binary Tree](266) iterative & recursive way
 - [337. House Robber III](337) hard
 - [404. Sum of Left Leaves](404) 明明很简单但我没做对?

@@ -6,22 +6,20 @@ BookToC: true
 bookCollapseSection: true
 ---
 # String
-{: .no_toc }
 
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
-Anything related to string yet cannot fit into other categories comes here...
+Anything related to string yet cannot fit into other categories comes here.
 
 ## istringstream
-[165. Compare Version Numbers](165)
+- [165. Compare Version Numbers](165)
+- [592. Fraction Addition and Subtraction](592)
+
 ## good
 - [647. Palindromic Substrings](647)
+- [592. Fraction Addition and Subtraction](592) usage of gcd
+
 
 ## hard
 - [459](459)
 - [686](686)
 - [966. Vowel Spellchecker](966) hard
+- [640. Solve the Equation](640) complicated, not hard

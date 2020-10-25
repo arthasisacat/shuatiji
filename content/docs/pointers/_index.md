@@ -32,6 +32,9 @@ BookToC: true
 ## hard
 - [11. Container With Most Water](11)
 - [880. Decoded String at Index](800)
+- [722. Remove Comments](722) 烦
+- [738. Monotone Increasing Digits](738)
+
 
 ## counting
 - [169. Majority Element](169) 3 ways to do it
