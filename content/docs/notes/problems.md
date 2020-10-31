@@ -6,19 +6,20 @@ BookToC: true
 # Problems
 
 ## intervals
-- [56. Merge Intervals](56) easy
+- [56. Merge Intervals]({{< ref "56.md" >}}) easy
 - [252. Meeting Rooms]({{< ref "252.md" >}}) 
 - [1353. Maximum Number of Events That Can Be Attended]({{< ref "1353.md" >}})
-## parentheses
 
+
+## parentheses
+- [22. Generate Parentheses]({{< ref "22.md" >}}) dfs
 - [921. Minimum Add to Make Parentheses Valid]({{< ref "921.md" >}}) easy
 - [20. Valid Parentheses]({{< ref "20.md" >}})
 - [921. Minimum Add to Make Parentheses Valid]({{< ref "921.md" >}})
-- [1111. Maximum Nesting Depth of Two Valid Parentheses Strings]({{< ref "1111.md" >}})
-- [22. Generate Parentheses]({{< ref "22.md" >}}) dfs
 - [856. Score of Parentheses]({{< ref "856.md" >}})
 - [1249. Minimum Remove to Make Valid Parentheses]({{< ref "1249.md" >}})
 - [678. Valid Parenthesis String]({{< ref "678.md" >}})
+- [1111. Maximum Nesting Depth of Two Valid Parentheses Strings]({{< ref "1111.md" >}})
 - 
 ## Buying and Selling stocks
 
