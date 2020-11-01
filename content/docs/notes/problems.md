@@ -20,7 +20,7 @@ BookToC: true
 - [1249. Minimum Remove to Make Valid Parentheses]({{< ref "1249.md" >}})
 - [678. Valid Parenthesis String]({{< ref "678.md" >}})
 - [1111. Maximum Nesting Depth of Two Valid Parentheses Strings]({{< ref "1111.md" >}})
-- 
+
 ## Buying and Selling stocks
 
 - [121. Best Time to Buy and Sell Stock]({{< ref "121.md" >}}) easy

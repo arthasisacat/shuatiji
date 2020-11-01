@@ -49,3 +49,6 @@ BookToC: true
 
 ## interesting
 - [13. Roman to Integer](13)
+
+## medium
+- [925. Long Pressed Name](925)
