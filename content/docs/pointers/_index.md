@@ -34,6 +34,7 @@ BookToC: true
 - [880. Decoded String at Index](800)
 - [722. Remove Comments](722) 烦
 - [738. Monotone Increasing Digits](738)
+- [1371. Find the Longest Substring Containing Vowels in Even Counts](1371)
 
 
 ## counting
@@ -52,3 +53,4 @@ BookToC: true
 
 ## medium
 - [925. Long Pressed Name](925)
+- [1023. Camelcase Matching](1023)

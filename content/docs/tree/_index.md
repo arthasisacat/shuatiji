@@ -113,7 +113,7 @@ BookToC: true
 - [1202. Smallest String With Swaps](docs/1202)
 - [684. Redundant Connection](684) hard
 - [990. Satisfiability of Equality Equations](990)
-
+- [1202. Smallest String With Swaps]({{< ref "1202.md" >}})
 
 ## serialization
 - [297. Serialize and Deserialize Binary Tree](297) too hard!!!
