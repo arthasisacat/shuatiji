@@ -110,7 +110,7 @@ BookToC: true
 ## Union Find
 - [547. Friend Circles](547) DFS/Union Find template
 - [721. Accounts Merge](721)
-- [1202. Smallest String With Swaps](docs/1202)
+- [1202. Smallest String With Swaps](docs/1202) so hard...
 - [684. Redundant Connection](684) hard
 - [990. Satisfiability of Equality Equations](990)
 - [1202. Smallest String With Swaps]({{< ref "1202.md" >}})

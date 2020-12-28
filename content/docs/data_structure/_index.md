@@ -7,7 +7,7 @@ BookToC: true
 # Data Structure
 
 ## ?? or TODO
-- [284. Peeking Iterator](284) wth?
+- [284. Peeking Iterator](284) wth???
 - 
 ## important & classic
 - [394. Decode String](394) recursive and non recursive ways. 

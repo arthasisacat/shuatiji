@@ -15,7 +15,9 @@ BookToC: true
 - [3. Longest Substring Without Repeating Characters](3.md) classic
 - [76. Minimum Window Substring](76)
 - [82. Remove Duplicates from Sorted List II](82)
- 
+- [2. Add Two Numbers](2)
+
+
 ## intervals
 - [57. Insert Interval](57) seems to be pretty simple to need to be cautious to not make mistakes.
 

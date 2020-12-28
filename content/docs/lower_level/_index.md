@@ -5,16 +5,38 @@ bookCollapseSection: true
 ---
 #  Lower level
 
+## classic
+- [7. Reverse Integer](7) consider overflow
+- [43. Multiply Strings](43) mutiplication
+- [136. Single Number](136)
+- [191. Number of 1 Bits](191)
+
+
+## easy
+- [66. Plus One](66)
+
+
 ## C-like
 [157](157)
 
 ## x 进制
+- [67. Add Binary](67) 2进制
+- [7. Reverse Integer](7) basic 
 - [171](171)
+- [12. Integer to Roman](12)
 - [504. Base 7](504)
 - [1017. Convert to Base -2](1017) negative base. See more on [wikipedia](https://en.wikipedia.org/wiki/Negative_base)
 - [1073. Adding Two Negabinary Numbers](1073)
 - [29. Divide Two Integers]({{< ref "29.md" >}}) hard
-- 
+- [168. Excel Sheet Column Title](168) 26进制
+- [171. Excel Sheet Column Number](171) 26进制
+
+
+## weird/brain teaser
+- [137. Single Number II](137)
+- [190. Reverse Bits](190)
+- [201. Bitwise AND of Numbers Range](201)
+
 ## bit operation
 ### signed int shift 
 signed int's shift is not defined in c++! unsigned is defined - to fill with 0s! see 371. Sum of Two Integers for example.
@@ -23,8 +45,8 @@ signed int's shift is not defined in c++! unsigned is defined - to fill with 0s!
 see [https://cp-algorithms.com/algebra/gray-code.html](https://cp-algorithms.com/algebra/gray-code.html)
 
 example: 
-- [89](89)
-- [1238](1238)
+- [89. Gray Code](89)
+- [1238. Circular Permutation in Binary Representation](1238)
 
 ### Swap 2 numbers in place
 ```c++
@@ -74,6 +96,8 @@ Examples
 Count the number of ones in the binary representation of the given number
 ***`n&n-1` drops(clears) the lowest set bit***
 
+leetcode link: [191. Number of 1 Bits](191)
+
 ```c++
 int count_one(int n) {
     while(n) {
@@ -83,7 +107,9 @@ int count_one(int n) {
     return count;
 }
 ```
+
 Is power of four (actually map-checking, iterative and recursive methods can do the same)
+
 ```c++
 bool isPowerOfFour(int n) {
     return !(n&(n-1)) && (n&0x55555555);
@@ -187,11 +213,14 @@ int rangeBitwiseAnd(int m, int n) {
 ```
 
 ### Number of 1 Bits
-Write a function that takes an unsigned integer and returns the number of ’1' bits it has (also known as the Hamming weight).
+
+leetcode: [191. Number of 1 Bits](191)
+
 
 Solution
 ```c++
 int hammingWeight(uint32_t n) {
+Write a function that takes an unsigned integer and returns the number of ’1' bits it has (also known as the Hamming weight).
 	int count = 0;
 	while(n) {
 		n = n&(n-1);
