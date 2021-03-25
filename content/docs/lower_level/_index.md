@@ -10,10 +10,21 @@ bookCollapseSection: true
 - [43. Multiply Strings](43) mutiplication
 - [136. Single Number](136)
 - [191. Number of 1 Bits](191)
+- [400. Nth Digit](400) classic!
+- [415. Add Strings](415) easy
 
 
 ## easy
 - [66. Plus One](66)
+- [268. Missing Number](268)
+- [318. Maximum Product of Word Lengths](318)
+- [461. Hamming Distance](461)
+- [476. Number Complement](476)
+
+
+## hard
+- [372. Super Pow](372)
+- [421. Maximum XOR of Two Numbers in an Array](421)
 
 
 ## C-like
@@ -30,12 +41,15 @@ bookCollapseSection: true
 - [29. Divide Two Integers]({{< ref "29.md" >}}) hard
 - [168. Excel Sheet Column Title](168) 26进制
 - [171. Excel Sheet Column Number](171) 26进制
-
+- [405. Convert a Number to Hexadecimal](405) 16 进制
+- [504. Base 7](504)
 
 ## weird/brain teaser
+- [260. Single Number III](260)
 - [137. Single Number II](137)
 - [190. Reverse Bits](190)
 - [201. Bitwise AND of Numbers Range](201)
+- [421. Maximum XOR of Two Numbers in an Array](421)
 
 ## bit operation
 ### signed int shift 
@@ -56,16 +70,6 @@ b = a^b;
 a = a^b;
 ```
 
-### XOR 
-**0^x = x**
-```
-XOR (^)
-a	b	a^b
-0	0	0
-0	1	1
-1	0	1
-1	1	0
-```
 
 =====
 ## Wiki
@@ -78,8 +82,8 @@ Bit manipulation, in some cases, can obviate or reduce the need to loop over a d
 At the heart of bit manipulation are the bit-wise operators & (and), | (or), ~ (not) and ^ (exclusive-or, xor) and shift operators a << b and a >> b.
 
 There is no boolean operator counterpart to bitwise exclusive-or, but there is a simple explanation. The exclusive-or operation takes two inputs and returns a 1 if either one or the other of the inputs is a 1, but not if both are. That is, if both inputs are 1 or both inputs are 0, it returns 0. Bitwise exclusive-or, with the operator of a caret, ^, performs the exclusive-or operation on each pair of bits. Exclusive-or is commonly abbreviated XOR.
-
-### Set union A | B
+```
+Set union A | B
 Set intersection A & B
 Set subtraction A & ~B
 Set negation ALL_BITS ^ A or ~A
@@ -90,14 +94,16 @@ Extract last bit A&-A or A&~(A-1) or x^(x&(x-1))
 Remove last bit A&(A-1)
 Get all 1-bits ~0
 Get last_set_bit = a&(-a);
+```
 
-Examples
+### Examples
 
 Count the number of ones in the binary representation of the given number
+
 ***`n&n-1` drops(clears) the lowest set bit***
 
-leetcode link: [191. Number of 1 Bits](191)
-
+- leetcode link: [191. Number of 1 Bits](191)
+- [338. Counting Bits](338)
 ```c++
 int count_one(int n) {
     while(n) {
@@ -108,7 +114,11 @@ int count_one(int n) {
 }
 ```
 
+- leet code link: [231. Power of Two](231)
+
 Is power of four (actually map-checking, iterative and recursive methods can do the same)
+
+[342. Power of Four](342)
 
 ```c++
 bool isPowerOfFour(int n) {
@@ -118,15 +128,31 @@ bool isPowerOfFour(int n) {
 ```
 
 ### ^ tricks
+
+**0^x = x**
+
+```
+XOR (^)
+a	b	a^b
+0	0	0
+0	1	1
+1	0	1
+1	1	0
+```
 Use ^ to remove even exactly same numbers and save the odd, or save the distinct bits and remove the same.
 
 Sum of Two Integers
+
 Use ^ and & to add two integers
 ```c++
 int getSum(int a, int b) {
     return b==0? a:getSum(a^b, (a&b)<<1); //be careful about the terminating condition;
 }
 ```
+
+Examples:
+- [389. Find the Difference](389) using `^`
+
 
 ### Missing Number
 
@@ -216,7 +242,6 @@ int rangeBitwiseAnd(int m, int n) {
 
 leetcode: [191. Number of 1 Bits](191)
 
-
 Solution
 ```c++
 int hammingWeight(uint32_t n) {
@@ -238,7 +263,9 @@ int hammingWeight(uint32_t n) {
     return count;
 }
 ```
+
 Application
+
 Repeated DNA Sequences
 All DNA is composed of a series of nucleotides abbreviated as A, C, G, and T, for example: "ACGAATTCCG". When studying DNA, it is sometimes useful to identify repeated sequences within the DNA. Write a function to find all the 10-letter-long sequences (substrings) that occur more than once in a DNA molecule.
 For example,
