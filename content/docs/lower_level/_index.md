@@ -15,11 +15,16 @@ bookCollapseSection: true
 
 
 ## easy
+- [1290. Convert Binary Number in a Linked List to Integer](1290) 
 - [66. Plus One](66)
 - [268. Missing Number](268)
 - [318. Maximum Product of Word Lengths](318)
 - [461. Hamming Distance](461)
 - [476. Number Complement](476)
+
+## medium
+- [762. Prime Number of Set Bits in Binary Representation](762)
+- [1177. Can Make Palindrome from Substring](1177) it's like prefix sum
 
 
 ## hard
@@ -35,8 +40,8 @@ bookCollapseSection: true
 - [7. Reverse Integer](7) basic 
 - [171](171)
 - [12. Integer to Roman](12)
-- [504. Base 7](504)
-- [1017. Convert to Base -2](1017) negative base. See more on [wikipedia](https://en.wikipedia.org/wiki/Negative_base)
+- [504. Base 7](504) easy
+- [1017. Convert to Base -2](1017) **negative base**. See more on [wikipedia](https://en.wikipedia.org/wiki/Negative_base)
 - [1073. Adding Two Negabinary Numbers](1073)
 - [29. Divide Two Integers]({{< ref "29.md" >}}) hard
 - [168. Excel Sheet Column Title](168) 26进制
@@ -50,6 +55,8 @@ bookCollapseSection: true
 - [190. Reverse Bits](190)
 - [201. Bitwise AND of Numbers Range](201)
 - [421. Maximum XOR of Two Numbers in an Array](421)
+- [1318. Minimum Flips to Make a OR b Equal to c](1318)
+- [1404. Number of Steps to Reduce a Number in Binary Representation to One](1404)
 
 ## bit operation
 ### signed int shift 
@@ -423,3 +430,27 @@ int main () {
   return 0;
 }
 ```
+
+## modular 
+[wiki](https://zh.wikipedia.org/wiki/%E6%A8%A1%E9%99%A4#%E7%AD%89%E4%BB%B7%E6%80%A7)
+
+等价性
+一些取模操作，经过分解和展开可以等同于其他数学运算。这在密码学的证明中十分有用，例如：迪菲-赫爾曼密鑰交換。
+
+恒等式：
+(a mod n) mod n = a mod n
+对所有的正数 x 有：nx mod n = 0
+如果 p 是一个质数，且不为 b 的因数，此时由费马小定理有：abp−1 mod p = a mod p
+逆运算：
+[(−a mod n) + (a mod n)] mod n = 0.
+b−1 mod n 表示模反元素。当且仅当 b 与 n 互质时，等式左侧有定义：[(b−1 mod n)(b mod n)] mod n = 1。
+分配律：
+(a + b) mod n = [(a mod n) + (b mod n)] mod n
+ab mod n = [(a mod n)(b mod n)] mod n
+d mod (abc) = (d mod a) + a[(d \ a) mod b] + ab[(d \ a \ b) mod c]，符号 \ 是欧几里德除法中的除法操作符，运算结果为商
+c mod (a+b) = (c mod a) + [bc \ (a+b)] mod b - [bc \ (a + b)] mod a.
+除法定义：仅当式子右侧有定义时，即 b、n 互质时有：
+a
+b
+ mod n = [(a mod n)(b−1 mod n)] mod n，其他情况为未定义的。
+乘法逆元：[(ab mod n)(b−1 mod n)] mod n = a mod n.
