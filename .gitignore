@@ -2,3 +2,4 @@
 /public
 /.firebase
 *.cache
+/resources/_gen/*
