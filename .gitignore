@@ -4,4 +4,4 @@
 *.cache
 /resources/_gen/
 firebase-debug.log
-
+.hugo_build.lock
