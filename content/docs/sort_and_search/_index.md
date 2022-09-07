@@ -15,14 +15,17 @@ BookToC: true
 [template](quicksort_mergesort.md)
 
 ## Basics/Classic
-- [bianry search basic](704)
+- [bianry search basic](704) **binary search template**
 - [153. Find Minimum in Rotated Sorted Array](153)
 - [31. Next Permutation](31)
 - [33. Search in Rotated Sorted Array](33)
 - [81. Search in Rotated Sorted Array II](81) based on 33, but this one allows duplicates.
 - [34. Find First and Last Position of Element in Sorted Array](34) basic binary search
+- [35.Search Insert Position](35)
 - [215. Kth Largest Element in an Array](215) quick select !!!!
 - [378. Kth Smallest Element in a Sorted Matrix](378) hard, 必会!!!
+- [702. Search in a Sorted Array of Unknown Size](702)
+- [162. Find Peak Element](162)
 
 ## Important problem
 - [lintcode404](lintcode404)
