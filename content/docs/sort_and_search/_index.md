@@ -26,6 +26,8 @@ BookToC: true
 - [378. Kth Smallest Element in a Sorted Matrix](378) hard, 必会!!!
 - [702. Search in a Sorted Array of Unknown Size](702)
 - [162. Find Peak Element](162)
+- [278. First Bad Version](278) super simple
+- [1901. Find a Peak Element II](1901) pretty hard..
 
 ## Important problem
 - [lintcode404](lintcode404)
