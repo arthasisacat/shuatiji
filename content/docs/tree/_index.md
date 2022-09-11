@@ -28,16 +28,18 @@ BookToC: true
 
 ## Traversal
 - see [traversal_summary](traversal) for summary
-- [94. Binary Tree Inorder Traversal](94)
+- [144. Binary Tree Preorder Traversal](144) basic
+- [590. N-ary Tree Postorder Traversal](590) basic
+- [94. Binary Tree Inorder Traversal](94) basic
+- [145. Binary Tree Postorder Traversal](145) basic
 - [173. Binary Search Tree Iterator](173) this is same as 94, but each step is separated
-- [144. Binary Tree Preorder Traversal](144)
 - [99. Recover Binary Search Tree](99) hard 还是不会
 - [501. Find Mode in Binary Search Tree](501)
 - [538. Convert BST to Greater Tree](538) easy
 - [572. Subtree of Another Tree](572) 可以一看
 - [606. Construct String from Binary Tree](606) 3
 - [653. Two Sum IV - Input is a BST](653) basic
-- [783. Minimum Distance Between BST Nodes](783) inorder
+- [783. Minimum Distance Between BST Nodes](783) inorder (same as 530)
 - [987. Vertical Order Traversal of a Binary Tree](987)
 - [1008. Construct Binary Search Tree from Preorder Traversal](1008) easy, basic concept of BST
 - [1302. Deepest Leaves Sum](1302) BFS/DFS
@@ -45,7 +47,7 @@ BookToC: true
 ### level order traversal
 - [102. Binary Tree Level Order Traversal](120) level traversal
 - [104. Maximum Depth of Binary Tree](104) easy
-- [637](637) easy
+- [637. Average of Levels in Binary Tree](637) easy
 - [662. Maximum Width of Binary Tree](662) DFS 
 - [429. N-ary Tree Level Order Traversal](429)
 - [513. Find Bottom Left Tree Value](513) 3
@@ -62,11 +64,11 @@ BookToC: true
 - [743. Network Delay Time](743)
 
 
-
 ## recursive/dfs
 - [226. Invert Binary Tree](266) iterative & recursive way
 - [337. House Robber III](337) hard
 - [404. Sum of Left Leaves](404) 明明很简单但我没做对?
+- [110. Balanced Binary Tree]({{< ref "110.md" >}}) easy
 - [547. Friend Circles](547) DFS/Union Find
 - [654. Maximum Binary Tree](654) 
 - [669. Trim a Binary Search Tree](669)
@@ -81,7 +83,7 @@ BookToC: true
 - [1026. Maximum Difference Between Node and Ancestor](1026) 2.5
 - [1080. Insufficient Nodes in Root to Leaf Paths](1080) hard
 - [1110. Delete Nodes And Return Forest](1110) hard
-- [1120. Maximum Average Subtree](1120)
+- [1120. Maximum Average Subtree](1120) easy
 - [1123. Lowest Common Ancestor of Deepest Leaves](1123) weird and hard
 - [1261. Find Elements in a Contaminated Binary Tree](1261) easy
 - [1305. All Elements in Two Binary Search Trees](1305) too easy
@@ -96,6 +98,11 @@ BookToC: true
 ## iterative
 - [117. Populating Next Right Pointers in Each Node II](117) hard
 - [226. Invert Binary Tree](266) iterative & recursive way
+
+
+## bfs or dfs 都可以
+- [559. Maximum Depth of N-ary Tree](559)
+
 
 ## leaf to leaf 
 - [687](687) leaf to leaf and doesn't need to pass through root

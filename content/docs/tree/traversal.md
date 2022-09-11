@@ -1,6 +1,6 @@
 ---
 title: traversal_summary
-weight: 1
+weight: 0
 ---
 # traversal_summary
 
@@ -194,6 +194,7 @@ void InOrderWithoutRecursion2(BTNode* root)
 前序遍历的递归定义：先根节点，后左子树，再右子树。有了中序遍历的基础，不用我再像中序遍历那样引导了吧。
 首先，我们遍历左子树，边遍历边打印，并把根节点存入栈中，以后需借助这些节点进入右子树开启新一轮的循环。还得重复一句：所有的节点都可看做是根节点。根据思维走向，写出代码段(i):
 前序代码段(i)
+```c++
 //边遍历边打印，并存入栈中，以后需要借助这些根节点(不要怀疑这种说法哦)进入右子树
 while (p)
 {
@@ -201,9 +202,11 @@ while (p)
 	s.push(p);
 	p = p->lchild;
 }
+```
 
 接下来就是：出栈，根据栈顶节点进入右子树。
 前序代码段(ii)   
+```c++
 //当p为空时，说明根和左子树都遍历完了，该进入右子树了
 if (!s.empty())
 {
@@ -211,9 +214,11 @@ if (!s.empty())
 	s.pop();
 	p = p->rchild;
 }
+```
 
 同样地，代码段(i)(ii)构成了一次完整的循环体。至此，不难写出完整的前序遍历的非递归写法。
 前序遍历代码一   
+```c++
 void PreOrderWithoutRecursion1(BTNode* root)
 {
 	if (root == NULL)
@@ -239,9 +244,12 @@ void PreOrderWithoutRecursion1(BTNode* root)
 	}
 	cout << endl;
 }
+```
 
 下面给出，本质是一样的另一段代码：
-前序遍历代码二    
+
+前序遍历代码二  
+```c++  
 //前序遍历
 void PreOrderWithoutRecursion2(BTNode* root)
 {
@@ -266,10 +274,10 @@ void PreOrderWithoutRecursion2(BTNode* root)
 	}
 	cout << endl;
 }
-
+```
 在二叉树中使用的是这样的写法，略有差别，本质上也是一样的：
 前序遍历代码三 
-
+```c++
 void PreOrderWithoutRecursion3(BTNode* root)
 {
 	if (root == NULL)
@@ -297,11 +305,14 @@ void PreOrderWithoutRecursion3(BTNode* root)
 	}
 	cout << endl;
 }
-最后进入最难的后序遍历：
+```
+
+## 后序遍历：
 后序遍历
 分析
 后序遍历递归定义：先左子树，后右子树，再根节点。后序遍历的难点在于：需要判断上次访问的节点是位于左子树，还是右子树。若是位于左子树，则需跳过根节点，先进入右子树，再回头访问根节点；若是位于右子树，则直接访问根节点。直接看代码，代码中有详细的注释。
 后序遍历代码一   
+```c++
 //后序遍历
 void PostOrderWithoutRecursion(BTNode* root)
 {
@@ -350,9 +361,13 @@ void PostOrderWithoutRecursion(BTNode* root)
 	}
 	cout << endl;
 }
+```
 
 下面给出另一种思路下的代码。它的想法是：给每个节点附加一个标记(left,right)。如果该节点的左子树已被访问过则置标记为left；若右子树被访问过，则置标记为right。显然，只有当节点的标记位是right时，才可访问该节点；否则，必须先进入它的右子树。详细细节看代码中的注释。
+
 后序遍历代码二
+
+```c++
 //定义枚举类型：Tag
 enum Tag{left,right};
 //自定义新的类型，把二叉树节点和标记封装在一起
@@ -400,15 +415,14 @@ void PostOrderWithoutRecursion2(BTNode* root)
 		}
 	}
 	cout << endl;
-}<span style="font-family: 'Courier New'; ">  </span>
-总结
+}
+```
+
+## 总结
+
 思维和代码之间总是有巨大的鸿沟。通常是思维正确，清楚，但却不易写出正确的代码。要想越过这鸿沟，只有多尝试、多借鉴，别无它法。
 以下几点是理解上述代码的关键：
 所有的节点都可看做是父节点(叶子节点可看做是两个孩子为空的父节点)。
 把同一算法的代码对比着看。在差异中往往可看到算法的本质。
 根据自己的理解，尝试修改代码。写出自己理解下的代码。写成了，那就是真的掌握了。
 
-转载请注明出处，本文地址：http://blog.csdn.net/zhangxiangdavaid/article/details/37115355
-————————————————
-版权声明：本文为CSDN博主「苏叔叔」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/zhangxiangDavaid/article/details/37115355

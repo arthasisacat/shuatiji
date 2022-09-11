@@ -44,6 +44,8 @@ bookCollapseSection: true
 - [96. Unique Binary Search Trees](96)
 - [95. Unique Binary Search Trees II](95)
 - [241. Different Ways to Add Parentheses](241)
+- [110. Balanced Binary Tree]({{< ref "110.md" >}})
+
 ### quad tree
 - [427. Construct Quad Tree]({{< ref "427.md" >}})
 - [558 quad tree]({{< ref "558.md" >}})
@@ -115,6 +117,8 @@ bookCollapseSection: true
 - [323. Number of Connected Components in an Undirected Graph](323)
 - [547. Friend Circles](547) same as [323](323)
 - [841. Keys and Rooms](841)
+- [559. Maximum Depth of N-ary Tree](559) bfs/dfs
+
 - 
 ## medium
 - [286. Walls and Gates](286)

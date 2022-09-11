@@ -42,7 +42,6 @@ BookToC: true
 - [414. Third Maximum Number](414) 4
 - [1201. Ugly Number III](1201) 5
 
-
 ## quick select
 - [215. Kth Largest Element in an Array](215) 
 - [4. Median of Two Sorted Arrays](4)
@@ -62,7 +61,6 @@ BookToC: true
 - [274. H-Index](274), [275](275.md) same
 - [50. Pow(x, n)](50)
 - [108. Convert Sorted Array to Binary Search Tree]({{< ref "108.md" >}})
-
 
 ## handy lower_bound/upper_bound
 - [658. Find K Closest Elements](658)
