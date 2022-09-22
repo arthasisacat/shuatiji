@@ -65,6 +65,8 @@ BookToC: true
 
 
 ## recursive/dfs
+- [100. Same Tree](100) easy
+- [101. Symmetric Tree](101) easy, almost same as 100
 - [226. Invert Binary Tree](266) iterative & recursive way
 - [337. House Robber III](337) hard
 - [404. Sum of Left Leaves](404) 明明很简单但我没做对?
