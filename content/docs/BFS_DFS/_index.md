@@ -17,9 +17,8 @@ bookCollapseSection: true
 - [241. Different Ways to Add Parentheses](241)
 
 ## classic
-- [127. Word Ladder](127)
-- [200. Number of Islands](200)
-- [78. subsets](78)
+- [200. Number of Islands](200) bfs
+- [78. subsets](78) 
 - [90. Subsets II](90) 4  必会!!!
 - [46. permutation](46)
 - [17. permutation ii](47) 
@@ -29,6 +28,7 @@ bookCollapseSection: true
 - [40. Combination Sum II](40)
 - [131. Palindrome Partitioning](131) very ordinary solution
 - [733. Flood Fill](733) easy
+- [127. Word Ladder](127)
 - [1514. Path with Maximum Probability](1514)
 - [51. N-Queens](51)
   
