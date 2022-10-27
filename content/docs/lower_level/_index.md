@@ -25,7 +25,8 @@ bookCollapseSection: true
 ## medium
 - [762. Prime Number of Set Bits in Binary Representation](762)
 - [1177. Can Make Palindrome from Substring](1177) it's like prefix sum
-
+- [190. Reverse Bits](190)
+- [201. Bitwise AND of Numbers Range](201) need a little thinking
 
 ## hard
 - [372. Super Pow](372)
@@ -52,8 +53,6 @@ bookCollapseSection: true
 ## weird/brain teaser
 - [260. Single Number III](260)
 - [137. Single Number II](137)
-- [190. Reverse Bits](190)
-- [201. Bitwise AND of Numbers Range](201)
 - [421. Maximum XOR of Two Numbers in an Array](421)
 - [1318. Minimum Flips to Make a OR b Equal to c](1318)
 - [1404. Number of Steps to Reduce a Number in Binary Representation to One](1404)
@@ -97,7 +96,7 @@ Set negation ALL_BITS ^ A or ~A
 Set bit A |= 1 << bit
 Clear bit A &= ~(1 << bit)
 Test bit (A & 1 << bit) != 0
-Extract last bit A&-A or A&~(A-1) or x^(x&(x-1))
+Extract last bit A&(-A) or A&~(A-1) or x^(x&(x-1))
 Remove last bit A&(A-1)
 Get all 1-bits ~0
 Get last_set_bit = a&(-a);
